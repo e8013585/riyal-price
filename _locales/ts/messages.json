@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Ntsengo wa Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Ntsengo wa Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Vona minxavo ya matiko ya misava leyi hundzuriweke eka Saudi Riyal (SAR) na UAE Dirham (AED) na VAT na swiringanyeto swa xibalo xa ku nghenisa, hi ku kongoma eka sayiti yin’wana na yin’wana yo xava.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Ku kumiwile",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tihakelo ta",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Xiyimo",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Pfuxeta mimpimo ya ku cincana",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "updated sweswi ntsena",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "ku pfuxetiwile $1 min ago",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "ku pfuxetiwa $1h leyi hundzeke",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ku tirhisa tihakelo ta le handle ka inthanete",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Kombisa minxavo eka",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Xiringanyeto",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Kombisa xiringanyeto xa VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Kombisa xiringanyeto xa xibalo xa ku nghenisa",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Xiyenge xa ​​swikumiwa",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Swiringanyeto ntsena. Tihakelo ta xiviri ta hambana hi ku ya hi mufambisi, nkoka lowu tivisiweke, na ku hlawuriwa ka customs.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Swiringanyeto ntsena. Tihakelo ta xiviri ta ku nghenisa swilo swi nga ha hambana.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Swihlawulekisi swa nkombiso",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Xiyimo xa beji",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Endzhaku ka nxavo",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Emahlweni ka nxavo",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Kombisa emoji ya mujeko",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Mode ya xihlanganisi",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 minxavo yi hundzuriwile eka pheji leri",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Ku hava minxavo leyi kumiweke",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Xihlovo",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Ku skena nakambe pheji",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ wa minxavo yi kumiwile. Ku kombisa ku sungula 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Endla leswaku Riyal Price yi tirha kumbe yi nga tirhi eka tluka leri",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Ntsengo lowu hundzuriweke",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "ntirho",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Ntsengo wa masungulo",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Nhlayo ya ku cincana",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Ku hundzuriwa",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. ntirho ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Xiringanyeto hinkwaxo",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Nhlayo ku sukela hi",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Xileriso xa Vuhosi M/113, 2020) · UAE: 5% VAT (Nawu wa Federal No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Switirhisiwa swa Elektroniki",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Swiambalo",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Swiambalo swa milenge",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Fanichara ya swilo",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Switoyi",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Switolwa & Ku Saseka",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Vuhlalu",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Swakudya & Swakudya Swakudya",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Tibuku (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Swiengetelo swa Rihanyo",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Swiphemu swa Movha",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Xin'wana",
+    "description": "Product category: other"
+  }
+}

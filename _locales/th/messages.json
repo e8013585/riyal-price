@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "ราคาริยาล",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "ราคาริยาล",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "ดูราคาระหว่างประเทศที่แปลงเป็นริยาลซาอุดิอาระเบีย (SAR) และเดอร์แฮมสหรัฐอาหรับเอมิเรตส์ (AED) พร้อมภาษีมูลค่าเพิ่มและภาษีนำเข้าโดยประมาณได้โดยตรงจากเว็บไซต์ช็อปปิ้ง",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "ตรวจพบ",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ราคา",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "สถานะ",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "รีเฟรชอัตราแลกเปลี่ยน",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "อัพเดทเมื่อกี้",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "อัปเดต $1 นาทีที่แล้ว",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "อัปเดต $1h ที่แล้ว",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "โดยใช้อัตราออฟไลน์",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "แสดงราคาใน",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "การประมาณค่า",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "แสดงประมาณการภาษีมูลค่าเพิ่ม",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "แสดงประมาณการภาษีนำเข้า",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "หมวดหมู่สินค้า",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "ประมาณการเท่านั้น ค่าใช้จ่ายจริงจะแตกต่างกันไปตามผู้ให้บริการขนส่ง มูลค่าที่สำแดง และการจัดประเภทศุลกากร",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ประมาณการเท่านั้น ต้นทุนการนำเข้าจริงอาจแตกต่างกัน",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "ตัวเลือกการแสดงผล",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "ตำแหน่งตราสัญลักษณ์",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "ราคาหลัง",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "ก่อนราคา",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "แสดงอีโมจิรูปธง",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "โหมดกะทัดรัด",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 แปลงราคาในหน้านี้",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "ไม่พบราคา",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "ที่มา",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "สแกนหน้าอีกครั้ง",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "ตรวจพบราคามากกว่า 500+ กำลังแสดง 500 ตัวแรก",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "เปิดหรือปิดใช้งานราคา Riyal ในหน้านี้",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "ราคาแปลง",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "หน้าที่",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "ราคาเดิม",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "อัตราแลกเปลี่ยน",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "แปลงแล้ว",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ภาษีมูลค่าเพิ่ม ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "ประมาณ หน้าที่ ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "รวมประมาณการ",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "อัตรา ณ",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: ภาษีมูลค่าเพิ่ม 15% (พระราชกฤษฎีกา M/113, 2020) · สหรัฐอาหรับเอมิเรตส์: ภาษีมูลค่าเพิ่ม 5% (กฎหมายของรัฐบาลกลางฉบับที่ 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "อิเล็กทรอนิกส์",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "เสื้อผ้า",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "รองเท้า",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "เฟอร์นิเจอร์",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "ของเล่น",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "เครื่องสำอางและความงาม",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "เครื่องประดับ",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "อาหารและร้านขายของชำ",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "หนังสือ (อากร 0%)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "อาหารเสริมเพื่อสุขภาพ",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "อะไหล่รถยนต์",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "อื่น",
+    "description": "Product category: other"
+  }
+}

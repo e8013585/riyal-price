@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riýal bahasy",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riýal bahasy",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Saud Arabystanynyň Riýal (SAR) we BAE Dirham (AED) salgydyna goşulan baha üçin salgydyň bahasy we import tölegleri bilen gönüden-göni islendik söwda sahypasyna serediň.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Tapyldy",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Nyrhlar",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Usagdaý",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Walýuta hümmetini täzeläň",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "edil şu wagt täzelendi",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "täzelendi $1 min öň",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "täzelendi $1h öň",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "awtonom nyrhlary ulanmak",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Bahalary görkez",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Bahalandyrma",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Salgyt salynýan bahany görkez",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Import paçlarynyň bahasyny görkeziň",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Haryt kategoriýasy",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Diňe çaklamalar. Hakyky çykdajylar daşaýjy, yglan edilen bahasy we gümrük klassifikasiýasy boýunça üýtgeýär.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Diňe çaklamalar. Hakyky import çykdajylary dürli bolup biler.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Görkeziş opsiýalary",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Nyşan ýagdaýy",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Bahadan soň",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Bahadan öň",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Baýdak emojisini görkez",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Ykjam re modeim",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 bahalary bu sahypada öwrüldi",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Bahalar tapylmady",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Çeşme",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Sahypany täzeden gözden geçiriň",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ bahalar tapyldy Ilkinji 500 görkezýär.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Bu sahypadaky Riýal Bahasyny işletmek ýa-da öçürmek",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Öwürilen bahasy",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "borjy",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Asyl bahasy",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Walýuta hümmeti",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Öwürildi",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "Salgyt tölegi (__PH1 __%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. borç (__PH1 __%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Jemi baha",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Bahasy",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% goşulan baha üçin salgydyň (Korollyk karary M / 113, 2020) · BAE: 5% goşulan baha üçin salgydy (2017-nji ýylyň 8-nji belgili federal kanuny)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Egin-eşik",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Aýakgap",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Mebel",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Oýnawaçlar",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmetika we gözellik",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Şaý-sepler",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Iýmit we azyk önümleri",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Kitaplar (0% borç)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Saglyk goşundylary",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Awtoulag bölekleri",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Beýlekiler",
+    "description": "Product category: other"
+  }
+}

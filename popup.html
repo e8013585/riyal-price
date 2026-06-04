@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+
+  <header class="rp-header">
+    <div class="rp-header-left">
+      <svg class="rp-logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+           aria-hidden="true" width="28" height="28">
+        <circle cx="16" cy="16" r="14" fill="#1A7A4A"/>
+        <text x="16" y="21" text-anchor="middle" font-size="14" font-family="sans-serif"
+              font-weight="bold" fill="#FFFFFF">﷼</text>
+      </svg>
+      <span class="rp-title" id="rp-ext-name"></span>
+    </div>
+    <div class="rp-header-right">
+      <label class="rp-toggle-switch rp-master-toggle" id="rp-master-label">
+        <input type="checkbox" id="rp-master-toggle" aria-describedby="rp-master-label" />
+        <span class="rp-slider"></span>
+      </label>
+    </div>
+  </header>
+
+  <section class="rp-section rp-status-section" aria-label="" id="rp-status-section-label">
+    <div class="rp-status-row">
+      <span class="rp-status-dot" id="rp-status-dot"></span>
+      <span class="rp-status-text" id="rp-detected-label"></span>
+      <span class="rp-detected-value" id="rp-detected-currency"></span>
+    </div>
+    <div class="rp-rates-row">
+      <span class="rp-rates-label" id="rp-rates-label"></span>
+      <span class="rp-rates-value" id="rp-rates-value"></span>
+      <button class="rp-icon-btn" id="rp-refresh-rates" type="button" title="">
+        <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+             width="16" height="16" aria-hidden="true">
+          <path d="M3.5 10A6.5 6.5 0 0 1 16.17 7" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round"/>
+          <path d="M16.5 10A6.5 6.5 0 0 1 3.83 13" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round"/>
+          <path d="M14 5l2.5 2-1.5 2.5" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6 15l-2.5-2 1.5-2.5" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <div class="rp-divider"></div>
+
+  <section class="rp-section">
+    <div class="rp-section-label" id="rp-show-prices-in-label"></div>
+    <div class="rp-currency-toggles">
+      <button class="rp-currency-btn" id="rp-toggle-sar" type="button"
+              aria-pressed="true" data-currency="SAR">
+        <span class="rp-currency-flag">🇸🇦</span>
+        <span class="rp-currency-code">SAR</span>
+      </button>
+      <button class="rp-currency-btn" id="rp-toggle-aed" type="button"
+              aria-pressed="false" data-currency="AED">
+        <span class="rp-currency-flag">🇦🇪</span>
+        <span class="rp-currency-code">AED</span>
+      </button>
+    </div>
+  </section>
+
+  <div class="rp-divider"></div>
+
+  <section class="rp-section">
+    <div class="rp-section-label" id="rp-estimation-label"></div>
+
+    <div class="rp-row">
+      <label class="rp-row-label" for="rp-vat-toggle" id="rp-vat-label"></label>
+      <label class="rp-toggle-switch">
+        <input type="checkbox" id="rp-vat-toggle" />
+        <span class="rp-slider"></span>
+      </label>
+    </div>
+
+    <div class="rp-row">
+      <label class="rp-row-label" for="rp-duty-toggle" id="rp-duty-label"></label>
+      <label class="rp-toggle-switch">
+        <input type="checkbox" id="rp-duty-toggle" />
+        <span class="rp-slider"></span>
+      </label>
+    </div>
+
+    <div class="rp-row rp-duty-category-row" id="rp-duty-category-row" style="display:none">
+      <label class="rp-row-label" for="rp-duty-category" id="rp-category-label"></label>
+      <select class="rp-select" id="rp-duty-category" aria-labelledby="rp-category-label">
+      </select>
+    </div>
+
+    <p class="rp-disclaimer" id="rp-disclaimer"></p>
+  </section>
+
+  <div class="rp-divider"></div>
+
+  <section class="rp-section">
+    <button class="rp-collapsible-header" id="rp-display-toggle" type="button"
+            aria-expanded="false" aria-controls="rp-display-options">
+      <span id="rp-display-options-label"></span>
+      <svg class="rp-chevron" viewBox="0 0 16 16" fill="none"
+           xmlns="http://www.w3.org/2000/svg" width="14" height="14" aria-hidden="true">
+        <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <div class="rp-collapsible-body" id="rp-display-options" aria-hidden="true">
+
+      <div class="rp-row rp-radio-row">
+        <span class="rp-row-label" id="rp-badge-pos-label"></span>
+        <div class="rp-radio-group">
+          <label class="rp-radio-label">
+            <input type="radio" name="rp-badge-pos" value="after" id="rp-pos-after" />
+            <span id="rp-after-label"></span>
+          </label>
+          <label class="rp-radio-label">
+            <input type="radio" name="rp-badge-pos" value="before" id="rp-pos-before" />
+            <span id="rp-before-label"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="rp-row">
+        <label class="rp-row-label" for="rp-flag-toggle" id="rp-flag-label"></label>
+        <label class="rp-toggle-switch">
+          <input type="checkbox" id="rp-flag-toggle" />
+          <span class="rp-slider"></span>
+        </label>
+      </div>
+
+      <div class="rp-row">
+        <label class="rp-row-label" for="rp-compact-toggle" id="rp-compact-label"></label>
+        <label class="rp-toggle-switch">
+          <input type="checkbox" id="rp-compact-toggle" />
+          <span class="rp-slider"></span>
+        </label>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="rp-divider"></div>
+
+  <section class="rp-section rp-stats-section" id="rp-stats-section">
+    <div class="rp-stats-row">
+      <span class="rp-stats-count" id="rp-price-count"></span>
+      <span id="rp-max-warn" class="rp-max-warn" style="display:none"></span>
+    </div>
+    <div class="rp-stats-detail" id="rp-stats-detail"></div>
+    <button class="rp-rescan-btn" id="rp-rescan" type="button"></button>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>

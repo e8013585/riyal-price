@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "ریال کی قیمت || ریال کی قیمت || سعودی ریال (SAR) اور UAE درہم (AED) میں تبدیل شدہ بین الاقوامی قیمتیں VAT اور درآمدی ڈیوٹی کے تخمینوں کے ساتھ براہ راست کسی بھی شاپنگ سائٹ پر دیکھیں۔",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "پتہ چلا",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "قیمتیں",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "حیثیت",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ریفریش ایکسچینج ریٹس",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ابھی اپ ڈیٹ کیا گیا",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "اپ ڈیٹ کیا گیا __PH1__ منٹ پہلے",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "اپ ڈیٹ کیا گیا __PH1__گھنٹہ پہلے",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "آف لائن ریٹس کا استعمال کرتے ہوئے",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "میں قیمتیں دکھائیں",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "تخمینہ",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "VAT تخمینہ دکھائیں",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "امپورٹ ڈیوٹی کا تخمینہ دکھائیں",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "مصنوعات کی قسم",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "صرف تخمینہ۔ اصل قیمتیں کیریئر، اعلان کردہ قیمت، اور کسٹم کی درجہ بندی کے لحاظ سے مختلف ہوتی ہیں۔",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "صرف تخمینہ۔ اصل درآمدی لاگت مختلف ہو سکتی ہے۔",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "ڈسپلے کے اختیارات",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "بیج پوزیشن",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "قیمت کے بعد",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "قیمت سے پہلے",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "پرچم کی ایموجی دکھائیں",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "کومپیکٹ موڈ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "__PH1__ قیمتیں اس صفحہ پر تبدیل کی گئی ہیں",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "کسی قیمت کا پتہ نہیں چلا",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "ماخذ",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "صفحہ کو دوبارہ اسکین کریں",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "500+ قیمتوں کا پتہ چلا۔ پہلے 500 دکھا رہا ہے۔",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "اس صفحہ پر ریال قیمت کو فعال یا غیر فعال کریں",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "تبدیل شدہ قیمت",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "ڈیوٹی",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "اصل قیمت",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "شرح تبادلہ",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "تبدیل شدہ",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "VAT (__PH1__%)",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "تخمینہ ڈیوٹی (__PH1__%)",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "کل تخمینہ",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "کی شرح",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (وفاقی قانون نمبر 8, 2017)",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "الیکٹرانکس",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "لباس",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "جوتے",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "فرنیچر",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "کھلونے",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "کاسمیٹکس اور خوبصورتی",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "زیورات",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "کھانا اور گروسری",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "کتابیں (0% ڈیوٹی)",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "ہیلتھ سپلیمنٹس",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "آٹو پارٹس",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "دیگر",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

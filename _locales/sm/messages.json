@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal Tau",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal Tau",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Va'ai tau fa'ava-o-malo ua liua i le Saudi Riyal (SAR) ma le UAE Dirham (AED) fa'atasi ai ma le VAT ma fa'atauga o tiute fa'aulufale mai, sa'o i luga o so'o se nofoaga fa'atau.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Na maua",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tau",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Tulaga",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Toe fa'afou fua faatatau",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "fa'afouina nei lava",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "faafou $1 min talu ai",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "faafou $1h ua mavae",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "fa'aoga tau tuusao",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Faaali tau ile",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Fa'atatau",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Fa'aali le VAT fa'atatau",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Fa'aali le fa'atatauga o tiute fa'aulufale mai",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Vaega o oloa",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Na'o fua faatatau. O tau moni e eseese e ala ile va'alele, fa'ailoa tau, ma le fa'avasegaga o aganu'u.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Na'o fua faatatau. E ono eseese tau fa'aulufale mai.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Fa'aali filifiliga",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Tulaga pine",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "A uma le tau",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "A'o le'i tau",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Faaali le fu'a emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Faiga fa'apitoa",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 tau ua liua i luga o lenei itulau",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Leai se tau na maua",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Punavai",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Toe su'esu'e itulau",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ tau na maua. Fa'aali muamua 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Fa'amalo pe fa'agata Riyal Tau i luga o lenei itulau",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Tau liua",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "tiute",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Tau muamua",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Fua fa'afesuia'i",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Liua",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. tiute ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Aofa'i fa'atatau",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Fuafua mai",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law Nu. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "faaeletonika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Laei",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Seevae",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Meafale",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Meataalo",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Mea teuteu & Lalelei",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Teuga",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Mea'ai & Fa'atau",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Tusi (0% tiute)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Mea Fa'aopoopo mo le Soifua Maloloina",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Vaega Ta'avale",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Isi",
+    "description": "Product category: other"
+  }
+}

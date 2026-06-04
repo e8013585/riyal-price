@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Giá Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Giá Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Xem giá quốc tế được chuyển đổi sang Saudi Riyal (SAR) và UAE Dirham (AED) cùng với ước tính VAT và thuế nhập khẩu, trực tiếp trên bất kỳ trang web mua sắm nào.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Đã phát hiện",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Giá",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Trạng thái",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Làm mới tỷ giá hối đoái",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "vừa cập nhật",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "đã cập nhật $1 phút trước",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "đã cập nhật $1h trước",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "sử dụng giá ngoại tuyến",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Hiển thị giá trong",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Ước tính",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Hiển thị ước tính VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Hiển thị ước tính thuế nhập khẩu",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Danh mục sản phẩm",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Chỉ ước tính. Chi phí thực tế thay đổi tùy theo hãng vận chuyển, giá trị khai báo và phân loại hải quan.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Chỉ ước tính. Chi phí nhập khẩu thực tế có thể khác nhau.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Tùy chọn hiển thị",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Vị trí huy hiệu",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Sau giá",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Trước giá",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Hiển thị biểu tượng cảm xúc cờ",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Chế độ thu gọn",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 giá được quy đổi trên trang này",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Không phát hiện thấy giá",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Nguồn",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Quét lại trang",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Đã phát hiện hơn 500 giá. Hiển thị 500 đầu tiên.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Bật hoặc tắt Giá Riyal trên trang này",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Giá quy đổi",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "nhiệm vụ",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Giá gốc",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Tỷ giá hối đoái",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Đã chuyển đổi",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "Thuế GTGT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Ước tính. nghĩa vụ ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Tổng dự toán",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Tỷ lệ tính đến",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Nghị định Hoàng gia M/113, 2020) · UAE: 5% VAT (Luật Liên bang số 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Điện tử",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Quần áo",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Giày Dép",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Nội Thất",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Đồ chơi",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Mỹ phẩm & Làm đẹp",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Đồ trang sức",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Thực phẩm & Tạp hóa",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Sách (thuế 0%)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Thực Phẩm Bổ Sung Sức Khỏe",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Phụ tùng ô tô",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Khác",
+    "description": "Product category: other"
+  }
+}

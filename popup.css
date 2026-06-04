@@ -1,0 +1,470 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green:        #1A7A4A;
+  --green-dark:   #145F39;
+  --green-light:  #E8F5EE;
+  --accent:       #34C759;
+  --text:         #1C1C1E;
+  --text-muted:   #6C6C70;
+  --text-subtle:  #AEAEB2;
+  --surface:      #FFFFFF;
+  --surface-alt:  #F2F2F7;
+  --border:       #E5E5EA;
+  --radius:       10px;
+  --radius-sm:    6px;
+  --shadow:       0 2px 8px rgba(0,0,0,0.10);
+  --toggle-w:     40px;
+  --toggle-h:     22px;
+  --toggle-dot:   18px;
+  --transition:   0.18s ease;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  width:            340px;
+  background:       var(--surface);
+  color:            var(--text);
+  font-family:      -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-size:        13px;
+  line-height:      1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x:       hidden;
+}
+
+body[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+.rp-header {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  padding:         12px 14px 10px;
+  background:      var(--green);
+  color:           #FFFFFF;
+}
+
+.rp-header-left {
+  display:     flex;
+  align-items: center;
+  gap:         8px;
+}
+
+.rp-logo {
+  flex-shrink: 0;
+}
+
+.rp-title {
+  font-size:   15px;
+  font-weight: 700;
+  color:       #FFFFFF;
+  letter-spacing: 0.01em;
+}
+
+.rp-header-right {
+  display:     flex;
+  align-items: center;
+}
+
+.rp-section {
+  padding: 10px 14px;
+}
+
+.rp-section-label {
+  font-size:     11px;
+  font-weight:   600;
+  color:         var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+
+.rp-divider {
+  height:     1px;
+  background: var(--border);
+  margin:     0 14px;
+}
+
+.rp-status-section {
+  background: var(--surface-alt);
+  border-radius: 0;
+}
+
+.rp-status-row {
+  display:     flex;
+  align-items: center;
+  gap:         6px;
+  margin-bottom: 4px;
+}
+
+.rp-status-dot {
+  width:         8px;
+  height:        8px;
+  border-radius: 50%;
+  background:    var(--text-subtle);
+  flex-shrink:   0;
+  transition:    background var(--transition);
+}
+
+.rp-status-dot.active {
+  background: var(--accent);
+}
+
+.rp-status-text {
+  font-size:  12px;
+  color:      var(--text-muted);
+  flex-shrink: 0;
+}
+
+.rp-detected-value {
+  font-size:   12px;
+  font-weight: 600;
+  color:       var(--text);
+}
+
+.rp-rates-row {
+  display:     flex;
+  align-items: center;
+  gap:         4px;
+}
+
+.rp-rates-label {
+  font-size: 11px;
+  color:     var(--text-muted);
+}
+
+.rp-rates-value {
+  font-size:   11px;
+  font-weight: 500;
+  color:       var(--text);
+  flex:        1;
+}
+
+.rp-icon-btn {
+  display:       flex;
+  align-items:   center;
+  justify-content: center;
+  width:         28px;
+  height:        28px;
+  border:        none;
+  border-radius: 6px;
+  background:    transparent;
+  color:         var(--text-muted);
+  cursor:        pointer;
+  transition:    background var(--transition), color var(--transition);
+  margin-left:   auto;
+}
+
+body[dir="rtl"] .rp-icon-btn {
+  margin-left:  0;
+  margin-right: auto;
+}
+
+.rp-icon-btn:hover {
+  background: var(--border);
+  color:      var(--green);
+}
+
+.rp-icon-btn:active {
+  background: var(--green-light);
+}
+
+.rp-icon-btn.spinning svg {
+  animation: rp-spin 0.7s linear infinite;
+}
+
+@keyframes rp-spin {
+  to { transform: rotate(360deg); }
+}
+
+.rp-toggle-switch {
+  position: relative;
+  display:  inline-block;
+  width:    var(--toggle-w);
+  height:   var(--toggle-h);
+  flex-shrink: 0;
+}
+
+.rp-toggle-switch input {
+  opacity:  0;
+  width:    0;
+  height:   0;
+  position: absolute;
+}
+
+.rp-slider {
+  position:      absolute;
+  inset:         0;
+  background:    #C7C7CC;
+  border-radius: 999px;
+  transition:    background var(--transition);
+  cursor:        pointer;
+}
+
+.rp-slider::before {
+  content:       '';
+  position:      absolute;
+  width:         var(--toggle-dot);
+  height:        var(--toggle-dot);
+  border-radius: 50%;
+  background:    #FFFFFF;
+  top:           2px;
+  left:          2px;
+  transition:    transform var(--transition);
+  box-shadow:    0 1px 3px rgba(0,0,0,0.2);
+}
+
+.rp-toggle-switch input:checked + .rp-slider {
+  background: var(--green);
+}
+
+.rp-toggle-switch input:checked + .rp-slider::before {
+  transform: translateX(calc(var(--toggle-w) - var(--toggle-dot) - 4px));
+}
+
+.rp-toggle-switch input:focus-visible + .rp-slider {
+  outline:        2px solid var(--green);
+  outline-offset: 2px;
+}
+
+.rp-row {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  gap:             8px;
+  padding:         5px 0;
+}
+
+.rp-row-label {
+  flex:      1;
+  font-size: 13px;
+  color:     var(--text);
+  cursor:    pointer;
+  user-select: none;
+}
+
+.rp-currency-toggles {
+  display: flex;
+  gap:     8px;
+}
+
+.rp-currency-btn {
+  flex:            1;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  gap:             5px;
+  padding:         7px 10px;
+  border:          2px solid var(--border);
+  border-radius:   var(--radius);
+  background:      var(--surface-alt);
+  color:           var(--text-muted);
+  font-size:       13px;
+  font-weight:     600;
+  cursor:          pointer;
+  transition:      all var(--transition);
+  user-select:     none;
+}
+
+.rp-currency-btn:hover {
+  border-color: var(--green);
+  color:        var(--green);
+  background:   var(--green-light);
+}
+
+.rp-currency-btn[aria-pressed="true"] {
+  border-color: var(--green);
+  background:   var(--green);
+  color:        #FFFFFF;
+}
+
+.rp-currency-btn.rp-shake {
+  animation: rp-shake 0.35s ease;
+}
+
+@keyframes rp-shake {
+  0%,100% { transform: translateX(0); }
+  20%      { transform: translateX(-4px); }
+  40%      { transform: translateX(4px); }
+  60%      { transform: translateX(-3px); }
+  80%      { transform: translateX(3px); }
+}
+
+.rp-currency-flag {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.rp-currency-code {
+  font-size:   12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.rp-select {
+  flex:          1;
+  max-width:     160px;
+  padding:       4px 6px;
+  border:        1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background:    var(--surface-alt);
+  color:         var(--text);
+  font-size:     12px;
+  font-family:   inherit;
+  cursor:        pointer;
+  outline:       none;
+  transition:    border-color var(--transition);
+}
+
+.rp-select:focus {
+  border-color: var(--green);
+}
+
+.rp-disclaimer {
+  font-size:   10.5px;
+  color:       var(--text-subtle);
+  line-height: 1.5;
+  margin-top:  8px;
+  padding-top: 6px;
+  border-top:  1px solid var(--border);
+}
+
+.rp-collapsible-header {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  width:           100%;
+  background:      none;
+  border:          none;
+  padding:         2px 0;
+  color:           var(--text);
+  font-size:       13px;
+  font-weight:     500;
+  font-family:     inherit;
+  cursor:          pointer;
+  text-align:      left;
+}
+
+body[dir="rtl"] .rp-collapsible-header {
+  text-align: right;
+}
+
+.rp-collapsible-header:hover {
+  color: var(--green);
+}
+
+.rp-chevron {
+  color:      var(--text-muted);
+  transition: transform var(--transition);
+  flex-shrink: 0;
+}
+
+.rp-collapsible-header[aria-expanded="true"] .rp-chevron {
+  transform: rotate(180deg);
+}
+
+.rp-collapsible-body {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.25s ease, padding 0.25s ease;
+  padding-top: 0;
+}
+
+.rp-collapsible-body.open {
+  max-height: 300px;
+  padding-top: 8px;
+}
+
+.rp-radio-row {
+  align-items: flex-start;
+}
+
+.rp-radio-group {
+  display:        flex;
+  flex-direction: column;
+  gap:            4px;
+  align-items:    flex-end;
+}
+
+body[dir="rtl"] .rp-radio-group {
+  align-items: flex-start;
+}
+
+.rp-radio-label {
+  display:     flex;
+  align-items: center;
+  gap:         5px;
+  cursor:      pointer;
+  font-size:   12px;
+  color:       var(--text);
+  user-select: none;
+}
+
+.rp-radio-label input[type="radio"] {
+  accent-color: var(--green);
+  width:        14px;
+  height:       14px;
+  cursor:       pointer;
+}
+
+.rp-stats-section {
+  background:    var(--surface-alt);
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+
+.rp-stats-row {
+  display:     flex;
+  align-items: center;
+  gap:         6px;
+  margin-bottom: 3px;
+}
+
+.rp-stats-count {
+  font-size:   12px;
+  font-weight: 600;
+  color:       var(--text);
+}
+
+.rp-max-warn {
+  font-size:  10.5px;
+  color:      #FF9500;
+  font-weight: 500;
+}
+
+.rp-stats-detail {
+  font-size:    11px;
+  color:        var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.rp-rescan-btn {
+  width:         100%;
+  padding:       7px;
+  background:    var(--green);
+  color:         #FFFFFF;
+  border:        none;
+  border-radius: var(--radius-sm);
+  font-size:     13px;
+  font-weight:   600;
+  font-family:   inherit;
+  cursor:        pointer;
+  transition:    background var(--transition);
+}
+
+.rp-rescan-btn:hover {
+  background: var(--green-dark);
+}
+
+.rp-rescan-btn:active {
+  background: var(--green-dark);
+  transform: scale(0.98);
+}

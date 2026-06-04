@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Ціна ріала",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Ціна ріала",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Дивіться міжнародні ціни, конвертовані в саудівський ріал (SAR) і дирхам ОАЕ (AED) з ПДВ і оцінками ввізного мита, безпосередньо на будь-якому торговому сайті.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Виявлено",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Ставки",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Статус",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Оновити курси валют",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "оновлено щойно",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "оновлено $1 хв тому",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "оновлено $1 год тому",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "з використанням офлайн тарифів",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Показати ціни в",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Оцінка",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Показати оцінку ПДВ",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Показати оцінку імпортного мита",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Категорія товару",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Лише оцінки. Фактичні витрати залежать від перевізника, заявленої вартості та митної класифікації.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Лише оцінки. Фактичні витрати на імпорт можуть відрізнятися.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Параметри відображення",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Позиція значка",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Після ціни",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Перед ціною",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Показати емодзі прапора",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Компактний режим",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "Ціни $1 конвертовані на цій сторінці",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Ціни не виявлено",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Джерело",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Перескануйте сторінку",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Виявлено понад 500 цін. Показано перші 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Увімкніть або вимкніть ціну ріала на цій сторінці",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Конвертована ціна",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "обов'язок",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Оригінальна ціна",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Курс",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Перетворено",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ПДВ ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Приблизно мито ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Загальний кошторис",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Ставка станом на",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% ПДВ (Королівський указ M/113, 2020) · ОАЕ: 5% ПДВ (Федеральний закон № 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Електроніка",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Одяг",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Взуття",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Меблі",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Іграшки",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Косметика та краса",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Ювелірні вироби",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Їжа та бакалія",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Книги (мито 0%)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Оздоровчі добавки",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Автозапчастини",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "інше",
+    "description": "Product category: other"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "ரியால் விலை || ரியால் விலை || VAT மற்றும் இறக்குமதி வரி மதிப்பீடுகளுடன் சவூதி ரியால் (SAR) மற்றும் UAE திர்ஹாம் (AED) ஆக மாற்றப்பட்ட சர்வதேச விலைகளை நேரடியாக எந்த ஷாப்பிங் தளத்திலும் பார்க்கவும்.",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "கண்டறியப்பட்டது || விகிதங்கள்",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "நிலை",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "மாற்று விகிதங்களைப் புதுப்பிக்கவும் || இப்போது புதுப்பிக்கப்பட்டது || __PH1__ நிமிடத்திற்கு முன்பு புதுப்பிக்கப்பட்டது",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "__PH1__h முன்பு புதுப்பிக்கப்பட்டது",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ஆஃப்லைன் கட்டணங்களைப் பயன்படுத்துதல் || விலைகளைக் காட்டு || கணிப்பு || VAT மதிப்பீட்டைக் காட்டு || இறக்குமதி வரி மதிப்பீட்டைக் காட்டு || தயாரிப்பு வகை || மதிப்பீடுகள் மட்டுமே. கேரியர், அறிவிக்கப்பட்ட மதிப்பு மற்றும் சுங்க வகைப்பாடு ஆகியவற்றின் அடிப்படையில் உண்மையான செலவுகள் மாறுபடும்.",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "மதிப்பீடுகள் மட்டுமே. உண்மையான இறக்குமதி செலவுகள் வேறுபடலாம்.",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "காட்சி விருப்பங்கள் || பேட்ஜ் நிலை || விலைக்குப் பிறகு || விலைக்கு முன் || கொடி ஈமோஜியைக் காட்டு || கச்சிதமான முறை || இந்தப் பக்கத்தில் __PH1__ விலைகள் மாற்றப்பட்டன",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "விலைகள் எதுவும் கண்டறியப்படவில்லை",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "ஆதாரம் || பக்கத்தை மீண்டும் ஸ்கேன் செய்யவும் || 500+ விலைகள் கண்டறியப்பட்டன. முதல் 500 ஐக் காட்டுகிறது. || இந்தப் பக்கத்தில் ரியால் விலையை இயக்கு அல்லது முடக்கு",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "மாற்றப்பட்ட விலை || கடமை",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "அசல் விலை || மாற்று விகிதம் || மாற்றப்பட்டது",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "VAT (__PH1__%)",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Est. கடமை (__PH1__%)",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "மொத்த மதிப்பீடு || விகிதம்: || KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "மின்னணுவியல் || ஆடை || பாதணிகள் || மரச்சாமான்கள் || பொம்மைகள் || அழகுசாதனப் பொருட்கள் & அழகு || நகைகள் || உணவு & மளிகை || புத்தகங்கள் (0% கடமை) || ஹெல்த் சப்ளிமெண்ட்ஸ் || வாகன பாகங்கள் || மற்றவை",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Estimates only. Actual costs vary by carrier, declared value, and customs classification.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Estimates only. Actual import costs may differ.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Display options",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Badge position",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "After price",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Before price",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Show flag emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Compact mode",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 prices converted on this page",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "No prices detected",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Source",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Re-scan page",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ prices detected. Showing first 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Enable or disable Riyal Price on this page",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Converted price",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "duty",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Original price",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Exchange rate",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Converted",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. duty ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Total estimate",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rate as of",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electronics",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Clothing",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Footwear",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Furniture",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Toys",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Beauty",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jewelry",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Food & Grocery",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Books (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

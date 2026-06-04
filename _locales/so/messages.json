@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Qiimaha Riyaalka",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Qiimaha Riyaalka",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Fiiri qiimaha caalamiga ah ee loo beddelay Riyal Saudi (SAR) iyo UAE Dirham (AED) oo leh VAT iyo qiyaasaha cashuuraha soo dejinta, si toos ah goob kasta oo wax laga iibsado.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "La ogaaday",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Heerarka",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Xaalada",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Dib u cusboonaysii qiimaha sarifka",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "hadda la cusbooneysiiyay",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "la cusbooneysiiyay $1 daqiiqo kahor",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "la cusbooneysiiyay $1h kahor",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "iyadoo la isticmaalayo qiimaha offline",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Muuji qiimaha gudaha",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Qiyaasta",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Muuji qiyaasta VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Muuji qiyaasta canshuurta soo dejinta",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Qaybta alaabta",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Qiyaasta kaliya. Qiimaha dhabta ahi wuu ku kala duwan yahay side, qiimaha la sheegay, iyo kala soocida kastamka.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Qiyaasta kaliya. Kharashka soo dejinta dhabta ahi wuu kala duwanaan karaa.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Xulashada bandhig",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Booska calaamada",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Qiimaha kadib",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Qiimaha ka hor",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Muuji calanka emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Habka is haysta",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 qiimaha lagu beddelay boggan",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Wax qiimo ah lama ogaan",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Xigasho",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Dib u baadh bogga",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ qiimaheedu waa la ogaaday. Muujinaya 500 ee ugu horreeya.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Daar ama dami Qiimaha Riyaalka boggan",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Qiimaha la badalay",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "waajib",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Qiimaha asalka ah",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Qiimaha Sarifka",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "loo badalay",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. waajibaadka ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Wadarta qiyaasta",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Qiimaha sida",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Xeerka Boqortooyada M/113, 2020) · UAE: 5% VAT (Sharciga Federaalka No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electronics",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Dharka",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Kabaha",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Alaabooyinka",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Alaabta lagu ciyaaro",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Quruxda & Quruxda",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "dahabka",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Cuntada & Raashinka",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Buugaag (0% waajib)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Kaabayaasha Caafimaadka",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Qaybaha Gawaarida",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Mid kale",
+    "description": "Product category: other"
+  }
+}

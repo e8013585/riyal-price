@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Ixabiso leRiyal || Ixabiso leRiyal || Jonga amaxabiso ngamazwe aguqulelwe kwi-Saudi Riyal (SAR) kunye ne-UAE Dirham (AED) kunye ne-VAT kunye noqikelelo lwerhafu yokungenisa elizweni, ngqo nakweyiphi indawo yokuthenga.",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Ifunyenwe",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Amaxabiso",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Ubume |||| Hlaziya amaxabiso otshintshiselwano",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ihlaziywe ngoku",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ihlaziywe __PH1__ kumzuzu odlule",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "ihlaziywe __PH1__iy edluleyo",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "usebenzisa amaxabiso angaphandle kweintanethi",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "Bonisa amaxabiso kwi-|| Uqikelelo || Bonisa uqikelelo lweVAT",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "Bonisa uqikelelo lwerhafu",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "Udidi lwemveliso",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Uqikelelo kuphela. Iindleko ezizizo ziyahluka ngokothutho, ixabiso elichaziweyo, kunye nokuhlelwa kwezithethe.",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Uqikelelo kuphela. Iindleko ezizizo zinokwahluka.",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Bonisa iinketho",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Indawo yebheji || Emva kwexabiso",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Ngaphambi kwexabiso",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Bonisa iflegi ye-emoji || Imo ebambeneyo",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "__PH1__ amaxabiso aguqulelwe kweli phepha",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Akukho maxabiso afunyenweyo",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Umthombo",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Skena kwakhona iphepha",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Amaxabiso angama-500+ achongiwe. Ibonisa i-500 yokuqala.",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Yenza okanye uvale iXabiso leRiyal kweli phepha",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Ixabiso eliguqulelweyo",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "umsebenzi",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Ixabiso lokuqala",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Ireyithi yotshintshiselwano",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Iguqulwe || I-VAT (__PH1__%)",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Est. umsebenzi (__PH1__%)",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Uqikelelo lulonke",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Ireyithi ye-||| I-KSA: I-15% ye-VAT (i-Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "Ezombane || Impahla",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Izihlangu || Ifenitshala || Izinto zokudlala",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Izithambiso & Nobuhle || Ubucwebe || Ukutya & noKutya || Iincwadi (0% duty)",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "izongezo zeMpilo || Amacandelo Auto",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "Okunye",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. duty ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Total estimate",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rate as of",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electronics",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Clothing",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Footwear",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Furniture",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Toys",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Beauty",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jewelry",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Food & Grocery",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Books (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

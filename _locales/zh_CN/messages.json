@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "里亚尔价格 |||里亚尔价格 |||直接在任何购物网站上查看转换为沙特里亚尔 (SAR) 和阿联酋迪拉姆 (AED) 的国际价格以及增值税和进口税估算。 |||检测到|||价格|||状态|||刷新汇率|||刚刚更新||| __PH1__ 分钟前更新",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "__PH1__ 小时前更新 |||使用离线汇率|||显示价格|||估计|||显示增值税估算 |||显示进口关税预估 |||产品类别 |||仅估计。实际费用因承运人、申报价值和海关分类而异。 |||仅估计。实际进口成本可能有所不同。 |||显示选项 |||徽章位置 |||价格后|||之前价格|||显示旗帜表情符号|||紧凑模式||| __PH1__ 价格在本页转换 |||未检测到价格|||来源 |||重新扫描页面 |||检测到 500 多个价格。显示前 500 条。|||在此页面启用或禁用里亚尔价格 |||换算价格|||职责|||原价|||汇率|||已转换 |||增值税 (__PH1__%) |||预计。关税 (__PH1__%) |||总估计|||评分截至|||沙特阿拉伯：15% 增值税（皇家法令 M/113，2020 年） · 阿联酋：5% 增值税（联邦法第 8 号，2017 年）|||电子产品 |||服装 |||鞋类|||家具|||玩具|||化妆品与美容 |||珠宝|||食品与杂货 |||书籍（0% 关税）|||保健品|||汽车配件|||其他",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "See international prices converted to Saudi Riyal (SAR) and UAE Dirham (AED) with VAT and import duty estimates, directly on any shopping site.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Detected",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Rates",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Refresh exchange rates",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "updated just now",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "updated $1 min ago",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "updated $1h ago",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "using offline rates",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Show prices in",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Estimation",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Show VAT estimate",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Show import duty estimate",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Product category",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Estimates only. Actual costs vary by carrier, declared value, and customs classification.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Estimates only. Actual import costs may differ.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Display options",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Badge position",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "After price",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Before price",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Show flag emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Compact mode",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 prices converted on this page",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "No prices detected",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Source",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Re-scan page",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ prices detected. Showing first 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Enable or disable Riyal Price on this page",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Converted price",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "duty",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Original price",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Exchange rate",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Converted",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. duty ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Total estimate",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rate as of",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electronics",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Clothing",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Footwear",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Furniture",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Toys",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Beauty",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jewelry",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Food & Grocery",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Books (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

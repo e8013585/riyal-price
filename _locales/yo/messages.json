@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Iye Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Iye Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Wo awọn idiyele kariaye ti o yipada si Saudi Riyal (SAR) ati UAE Dirham (AED) pẹlu VAT ati awọn iṣiro iṣẹ gbigbe wọle, taara lori aaye riraja eyikeyi.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Ti ṣe awari",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Awọn oṣuwọn || Ipo",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Sọ awọn oṣuwọn paṣipaarọ",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "imudojuiwọn kan bayi",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "imudojuiwọn __PH1__ min ago",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "imudojuiwọn $1h ago",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "lilo awọn oṣuwọn offline",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "Ṣe afihan awọn idiyele ni",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Iṣiro",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Ṣe afihan iṣiro VAT",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Ṣe afihan iṣiro iṣẹ agbewọle wọle",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Ọja ẹka",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Awọn iṣiro nikan. Awọn idiyele gidi yatọ nipasẹ gbigbe, iye ti a kede, ati isọdi aṣa.",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Awọn iṣiro nikan. Awọn idiyele agbewọle gidi le yatọ.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Awọn aṣayan ifihan",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Ipo Baaji",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Lẹhin ti owo || Ṣaaju idiyele || Ṣe afihan emoji asia",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Ipo iwapọ",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Awọn iye owo __PH1__ yipada lori oju-iwe yii",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Ko si awọn idiyele ti a rii",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Orisun",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "Tun-ṣayẹwo oju-iwe",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "500+ owo-ri. Nfihan akọkọ 500.",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Mu ṣiṣẹ tabi mu Owo Riyal ṣiṣẹ lori oju-iwe yii",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Iyipada owo",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "ojuse",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Owo atilẹba",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Oṣuwọn paṣipaarọ",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "Yipada",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "VAT (__PH1__%)",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Est. ojuse (__PH1__%)",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Lapapọ iṣiro",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "Oṣuwọn bi ti",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Ofin Federal No. 8, 2017)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Electronics",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Aso",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "Footwear",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Furniture",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Awọn nkan isere",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Kosimetik & Ẹwa",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Jewelry",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Ounje & Onje || Awọn iwe (0% ojuse)",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Awọn afikun Ilera",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Awọn ẹya Aifọwọyi",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Omiiran",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Books (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}
