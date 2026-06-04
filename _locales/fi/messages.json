@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Rialin hinta",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Rialin hinta",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Katso kansainväliset hinnat muutettuina Saudi Rialeihin (SAR) ja Arabiemiirikuntien dirhamiin (AED) sekä ALV- ja tuontitulliarviot suoraan millä tahansa ostossivustolla.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Havaittu",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Hinnat",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Tila",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Päivitä valuuttakurssit",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "päivitetty juuri nyt",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "päivitetty $1 min sitten",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "päivitetty $1h sitten",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "käyttämällä offline-hintoja",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Näytä hinnat",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Arvio",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Näytä ALV-arvio",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Näytä tuontitullien arvio",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Tuoteluokka",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Vain arvioita. Todelliset kustannukset vaihtelevat liikenteenharjoittajan, ilmoitetun arvon ja tulliluokituksen mukaan.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Vain arvioita. Todelliset tuontikustannukset voivat vaihdella.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Näyttövaihtoehdot",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Merkin asema",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Hinnan jälkeen",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Ennen hintaa",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Näytä lippuemoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Kompakti tila",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 hinnat muutettu tällä sivulla",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Hintoja ei havaittu",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Lähde",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Skannaa sivu uudelleen",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Yli 500 hintaa havaittu. Näytetään 500 ensimmäistä.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Ota Riyal Price käyttöön tai poista se käytöstä tällä sivulla",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Muunnettu hinta",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "tulli",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Alkuperäinen hinta",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Valuuttakurssi",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Muutettu",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ALV ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Arvioitu tulli ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Kokonaisarvio",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Hinta",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15 % ALV (kuninkaan asetus M/113, 2020) · Arabiemiirikunnat: 5 % ALV (liittovaltion laki nro 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektroniikka",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Vaatteet",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Jalkineet",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Huonekalut",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Lelut",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmetiikka ja kauneus",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Korut",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Ruoka ja päivittäistavarakauppa",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Kirjat (0 % tulli)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Terveyslisät",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auton osat",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Muut",
+    "description": "Product category: other"
+  }
+}

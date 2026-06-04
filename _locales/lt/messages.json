@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Rialo kaina",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Rialo kaina",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Žr. tarptautines kainas, konvertuotas į Saudo Arabijos rialus (SAR) ir JAE dirhamus (AED), su PVM ir importo muito sąmata tiesiogiai bet kurioje apsipirkimo svetainėje.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Aptikta",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Kainos",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Būsena",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Atnaujinti valiutų kursus",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "ką tik atnaujinta",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "atnaujinta prieš $1 min.",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "atnaujinta prieš $1h",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "naudojant tarifus neprisijungus",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Rodyti kainas",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Įvertinimas",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Rodyti PVM sąmatą",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Rodyti importo muito sąmatą",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Prekės kategorija",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Tik sąmatos. Faktinės išlaidos skiriasi priklausomai nuo vežėjo, deklaruotos vertės ir muitinės klasifikacijos.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Tik sąmatos. Faktinės importo išlaidos gali skirtis.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Ekrano parinktys",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Ženklelio padėtis",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Po kainos",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Prieš kainą",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Rodyti vėliavėlės jaustuką",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Kompaktiškas režimas",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 kainos konvertuotos šiame puslapyje",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Kainų neaptikta",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Šaltinis",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Iš naujo nuskaityti puslapį",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Aptikta daugiau nei 500 kainų. Rodoma pirmųjų 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Įjungti arba išjungti Riyal Price šiame puslapyje",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Kaina perskaičiuota",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "muitas",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Pradinė kaina",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Valiutos kursas",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Konvertuotas",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "PVM ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Įvert. muitas ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Bendra sąmata",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Kaina nuo",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15 % PVM (Karališkasis dekretas M/113, 2020) · JAE: 5 % PVM (2017 m. federalinis įstatymas Nr. 8)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Drabužiai",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Avalynė",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Baldai",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Žaislai",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmetika ir grožis",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Papuošalai",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Maistas ir bakalėjos prekės",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Knygos (0 % muitas)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Sveikatos papildai",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Automobilių dalys",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Kita",
+    "description": "Product category: other"
+  }
+}

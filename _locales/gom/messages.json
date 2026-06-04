@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "रियाल किंमत",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "रियाल किंमत",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "वॅट आनी आयात कर अदमासा सयत साउदी रियाल (एसएआर) आनी युएई दिरहाम (एईडी) कडेन रुपांतरीत केल्लीं आंतरराष्ट्रीय दर पळयात, थेट खंयच्याय खरेदी सुवातेर.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "सोदून काडलें",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "दर",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "स्थिती",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "विनिमय दर ताजे करचे",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "आतांच अद्ययावत केलां",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "अद्ययावत केल्लें $1 मिण्टां आदीं",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "अद्ययावत $1h आदीं",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ऑफलायन दर वापरून",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "दर दाखवा",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "अदमास करप",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "वॅट अदमास दाखोवचो",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "आयात शुल्काचो अदमास दाखोवचो",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "उत्पादन वर्ग",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "फकत अदमास. प्रत्यक्ष खर्च वाहक, जाहीर केल्लें मोल आनी कस्टम वर्गीकरणा प्रमाण बदलता.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "फकत अदमास. प्रत्यक्ष आयात खर्च वेगळो आसूं येता.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "पर्याय दाखोवपाचे",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "बॅज पोजीशन",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "किंमत उपरांत",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "किंमत जावचे पयलीं",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "ध्वज इमोजी दाखवा",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "संकुचीत मोड",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 दर ह्या पानाचेर रुपांतरीत केल्यात",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "दर सोदून काडले नात",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "स्रोत",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "पान परतून स्कॅन करचें",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ दर मेळ्ळे. पयली 500 दाखोवन",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "ह्या पानाचेर रियाल किंमत सक्षम वा अक्षम करचें",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "रुपांतरीत किंमत",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "कर्तव्य",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "मूळ किंमत",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "विनिमय दर",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "रुपांतर केलें",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "वॅट (__पीएच1__%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "इस्ट. कर्तव्य ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "एकूण अदमास",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "दर प्रमाण",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "केएसए: 15% वॅट (राजकीय फरमान एम/113, 2020) · युएई: 5% वॅट (फेडरल कायदो क्रमांक 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "इलेक्ट्रॉनिक्स",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "कपडे",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "पांयतणां",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "फर्निचर",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "खेळणीं",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "प्रसाधनां आनी सौंदर्य",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "दागिने",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "अन्न आनी किराणा",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "पुस्तकां (०% शुल्क)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "भलायकी पूरक पदार्थ",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "ऑटो पार्ट्स",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "हेर",
+    "description": "Product category: other"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Rijská cena",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Rijská cena",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Pozrite si medzinárodné ceny prepočítané na Saudský Rijál (SAR) a SAE Dirham (AED) s odhadmi DPH a dovozného cla priamo na ktorejkoľvek nákupnej stránke.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Zistené",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Sadzby",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Stav",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Obnoviť výmenné kurzy",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "práve aktualizované",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "aktualizované pred $1 min",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "aktualizované pred $1h",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "pomocou offline sadzieb",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Zobraziť ceny v",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Odhad",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Zobraziť odhad DPH",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Zobraziť odhad dovozného cla",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Kategória produktu",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Iba odhady. Skutočné náklady sa líšia podľa prepravcu, deklarovanej hodnoty a colnej klasifikácie.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Iba odhady. Skutočné náklady na dovoz sa môžu líšiť.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Možnosti zobrazenia",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Pozícia odznaku",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Po cene",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Pred cenou",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Zobraziť emotikony vlajky",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Kompaktný režim",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 ceny prevedené na tejto stránke",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Neboli zistené žiadne ceny",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Zdroj",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Znova naskenovať stránku",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Zistilo sa viac ako 500 cien. Zobrazuje sa prvých 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Povoliť alebo zakázať cenu Riyal na tejto stránke",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Prepočítaná cena",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "clo",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Pôvodná cena",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Výmenný kurz",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Prevedené",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "DPH ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Odhad. clo ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Celkový odhad",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Sadzba k",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15 % DPH (kráľovský výnos M/113, 2020) · SAE: 5 % DPH (federálny zákon č. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Oblečenie",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Obuv",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Nábytok",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Hračky",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kozmetika a krása",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Šperky",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Potraviny a potraviny",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Knihy (0 % clo)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Zdravotné doplnky",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Autodiely",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Iné",
+    "description": "Product category: other"
+  }
+}

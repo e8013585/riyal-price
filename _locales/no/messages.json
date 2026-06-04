@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal Pris",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal Pris",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Se internasjonale priser konvertert til Saudi Riyal (SAR) og UAE Dirham (AED) med estimater for mva og importavgifter, direkte på en hvilken som helst shoppingside.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Oppdaget",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Priser",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Oppdater valutakurser",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "oppdatert akkurat nå",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "oppdatert for $1 min siden",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "oppdatert for $1h siden",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "bruker frakoblede priser",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Vis priser i",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Estimat",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Vis mva-anslag",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Vis importavgiftsestimat",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Produktkategori",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Kun anslag. Faktiske kostnader varierer etter transportør, deklarert verdi og tollklassifisering.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Kun anslag. Faktiske importkostnader kan variere.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Visningsalternativer",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Merkeposisjon",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Etter pris",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Før pris",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Vis flagg-emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Kompakt modus",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 priser konvertert på denne siden",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Ingen priser oppdaget",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Kilde",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Skann siden på nytt",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ priser oppdaget. Viser de første 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Aktiver eller deaktiver Riyal Price på denne siden",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Omregnet pris",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "plikt",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Opprinnelig pris",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Valutakurs",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Konvertert",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "MVA ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. avgift ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Totalt estimat",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Pris pr.",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15 % mva (kongelig resolusjon M/113, 2020) · UAE: 5 % mva (føderal lov nr. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronikk",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Klær",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Fottøy",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Møbler",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Leker",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmetikk og skjønnhet",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Smykker",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Mat og dagligvarer",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Bøker (0 % toll)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Helsetilskudd",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Bildeler",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Annen",
+    "description": "Product category: other"
+  }
+}

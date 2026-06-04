@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal Prix",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal Prix",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Aw ye diɲɛ sɔngɔw lajɛ minnu jiginna ka kɛ Saudi Riyali (SAR) ani Emira Arabu Uniw Dirham (AED) ye ni PIB ni fɛnw dondonni musaka jateminɛw ye, k’u ɲɛsin sannikɛyɔrɔ o yɔrɔ ma.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "A kɔlɔsira",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tarifuw",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Fresh exchange rates",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "updated sisan dɔrɔn",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "kura $1 min tɛmɛnen",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "kura $1h tɛmɛnen",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ka baara kɛ ni tarikuw ye minnu tɛ ɛntɛrinɛti kan",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "A jira sɔngɔw la",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Jateminɛ kɛcogo",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "PIB jateminɛ jira",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Import duty jateminɛ jira",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Fɛn dilannenw suguya",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Jateminɛw dɔrɔn de bɛ kɛ. Musaka lakikaw bɛ danfara ka kɛɲɛ ni fɛn tabaga ye, nafa fɔlen, ani dumuni suguya.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Jateminɛw dɔrɔn de bɛ kɛ. Fɛn minnu bɛ don jamana kɔnɔ, olu musaka lakikaw bɛ se ka kɛ danfara ye.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "A jiracogo sugandilenw",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Badge jɔyɔrɔ",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "A kɔfɛ sɔngɔ",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Sani sɔngɔ ka kɛ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "A jira drapeau emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Mode compact",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 sɔngɔw jiginna nin ɲɛ in kan",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Sɔngɔ si ma sɔrɔ",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Soso",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Segin ka scan kɛ ɲɛ",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ sɔngɔw kɔlɔsira. A jirala fɔlɔ 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Riyal Price daminɛ walima a bali nin ɲɛ in kan",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Yɛlɛma donna sɔngɔ la",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "baara",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Prix ​​originale",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Wari falen-falen hakɛ",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Yɛlɛma donna",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "PIB ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. baara ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Jateminɛ bɛɛ lajɛlen",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Taux ka kɛɲɛ ni",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% PIB (Masa ka sariya M/113, 2020) · UAE: 5% PIB (Fédéral sariya No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektɔriki ka baara",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Fini fini",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Sennasanbaraw",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Meubles",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Tulonkɛfɛnw",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmɛtikiw & Beauté",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Bijoux Bamako",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Dumuni & Dumunifɛnw",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Gafew (0% sara)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Kɛnɛyako Furakɛcogo",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Mobili Pièces",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Dɔ wɛrɛ",
+    "description": "Product category: other"
+  }
+}

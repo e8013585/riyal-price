@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Farashin Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Farashin Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Dubi farashin ƙasashen duniya da aka canza zuwa Saudi Riyal (SAR) da UAE Dirham (AED) tare da VAT da ƙididdigar harajin shigo da kaya, kai tsaye akan kowane rukunin sayayya.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "An Gano",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Farashin",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Matsayi",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Sabunta farashin musaya",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "sabunta yanzu",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "sabunta $1 min ago",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "sabunta $1h ago",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ta amfani da ƙimar layi",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Nuna farashin a",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Kiyasin",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Nuna kimanta VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Nuna ƙididdigar harajin shigo da kaya",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Nau'in samfur",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Ƙididdiga kawai. Haƙiƙan farashin ya bambanta ta mai ɗaukar kaya, ƙimar da aka bayyana, da rarrabuwar kwastan.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Ƙididdiga kawai. Haƙiƙanin farashin shigo da kaya na iya bambanta.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Zaɓuɓɓukan Nuni",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Matsayin lamba || Bayan farashin",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Kafin farashin",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Nuna tuta emoji",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Karamin yanayi",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "An canza farashin __PH1__ akan wannan shafin",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "Babu farashin da aka gano",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Source",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Sake duba shafin",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "An gano farashin 500+. Nuna farkon 500.",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Kunna ko kashe Farashin Riyal akan wannan shafin",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Farashin da aka canza",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "aiki",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "Farashin asali",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Darajar musayar kudi",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Juyawa",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "VAT (__PH1__%)",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "Est. aiki ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Jimlar kimanta",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Rate kamar na",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "KSA: 15% VAT (Dokar sarauta M/113, 2020) · UAE: 5% VAT (Dokar Tarayya No. 8, 2017)",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "Lantarki",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Tufafi",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Takalmi",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Kayan Daki",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Kayan wasan yara",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Kayan shafawa & Kyau",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kayan Ado",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Abinci & Kayan Abinci",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Littattafai (0% wajibi)",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Kariyar Lafiya",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Sassan Motoci",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Sauran",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "റിയാൽ വില || റിയാൽ വില || ഏതെങ്കിലും ഷോപ്പിംഗ് സൈറ്റിൽ നേരിട്ട് വാറ്റ്, ഇറക്കുമതി തീരുവ എസ്റ്റിമേറ്റ് എന്നിവ സഹിതം സൗദി റിയാലിലേക്കും (SAR) UAE ദിർഹത്തിലേക്കും (AED) പരിവർത്തനം ചെയ്ത അന്താരാഷ്ട്ര വിലകൾ കാണുക.",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "കണ്ടെത്തി",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "നിരക്കുകൾ",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "നില",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "വിനിമയ നിരക്കുകൾ പുതുക്കുക",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ഇപ്പോൾ അപ്ഡേറ്റ് ചെയ്തു",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "അപ്ഡേറ്റ് __PH1__ മിനിറ്റ് മുമ്പ്",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "അപ്ഡേറ്റ് __PH1__h മുമ്പ്",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "ഓഫ്‌ലൈൻ നിരക്കുകൾ ഉപയോഗിച്ച്",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "വിലകൾ കാണിക്കുക || എസ്റ്റിമേഷൻ",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "VAT എസ്റ്റിമേറ്റ് കാണിക്കുക",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "ഇറക്കുമതി തീരുവ എസ്റ്റിമേറ്റ് കാണിക്കുക",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "ഉൽപ്പന്ന വിഭാഗം",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "ഏകദേശ കണക്കുകൾ മാത്രം. കാരിയർ, പ്രഖ്യാപിത മൂല്യം, കസ്റ്റംസ് വർഗ്ഗീകരണം എന്നിവ അനുസരിച്ച് യഥാർത്ഥ ചെലവുകൾ വ്യത്യാസപ്പെടുന്നു.",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "ഏകദേശ കണക്കുകൾ മാത്രം. യഥാർത്ഥ ഇറക്കുമതി ചെലവ് വ്യത്യാസപ്പെടാം.",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "ഡിസ്പ്ലേ ഓപ്ഷനുകൾ || ബാഡ്ജ് സ്ഥാനം",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "വില കഴിഞ്ഞാൽ || വില മുമ്പ്",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ഫ്ലാഗ് ഇമോജി കാണിക്കൂ",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "കോംപാക്റ്റ് മോഡ്",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "__PH1__ വിലകൾ ഈ പേജിൽ പരിവർത്തനം ചെയ്തു",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "വിലകളൊന്നും കണ്ടെത്തിയില്ല",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "ഉറവിടം",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "പേജ് വീണ്ടും സ്കാൻ ചെയ്യുക",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "500+ വിലകൾ കണ്ടെത്തി. ആദ്യ 500 കാണിക്കുന്നു.",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "ഈ പേജിൽ റിയാൽ വില പ്രവർത്തനക്ഷമമാക്കുക അല്ലെങ്കിൽ പ്രവർത്തനരഹിതമാക്കുക",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "പരിവർത്തനം ചെയ്ത വില",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "കടമ",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "യഥാർത്ഥ വില",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "വിനിമയ നിരക്ക്",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "പരിവർത്തനം ചെയ്തു",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "VAT (__PH1__%)",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "EST. ഡ്യൂട്ടി (__PH1__%)",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "മൊത്തം എസ്റ്റിമേറ്റ്",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "നിരക്ക് പ്രകാരം || KSA: 15% VAT (റോയൽ ഡിക്രി M/113, 2020) · UAE: 5% VAT (ഫെഡറൽ നിയമം നമ്പർ 8, 2017)",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ഇലക്ട്രോണിക്സ്",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "വസ്ത്രം",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "പാദരക്ഷകൾ",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "ഫർണിച്ചർ",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "കളിപ്പാട്ടങ്ങൾ",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "സൗന്ദര്യവർദ്ധക വസ്തുക്കളും സൗന്ദര്യവും",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "ആഭരണങ്ങൾ",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "ഭക്ഷണവും പലചരക്ക് സാധനങ്ങളും || പുസ്തകങ്ങൾ (0% ഡ്യൂട്ടി)",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "ആരോഗ്യ സപ്ലിമെൻ്റുകൾ",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "ഓട്ടോ ഭാഗങ്ങൾ",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "മറ്റുള്ളവ",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Beauty",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jewelry",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Food & Grocery",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Books (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

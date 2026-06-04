@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "ꯔꯥꯌꯂꯒꯤ ꯃꯃꯜ",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "ꯔꯥꯌꯂꯒꯤ ꯃꯃꯜ",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "ꯚꯦꯠ ꯑꯃꯁꯨꯡ ꯏꯝꯄꯣꯔꯠ ꯗ꯭ꯌꯨꯇꯤꯒꯤ ꯑꯦꯁ꯭ꯇꯤꯃꯦꯠꯁꯤꯡꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯁꯥꯎꯗꯤ ꯔꯤꯌꯥꯜ (ꯑꯦꯁ.ꯑꯦ.ꯑꯥꯔ.) ꯑꯃꯁꯨꯡ ꯌꯨ.ꯑꯦ.ꯏ.ꯒꯤ ꯗꯤꯔꯍꯝ (ꯑꯦ.ꯏ.ꯗꯤ.)ꯗꯥ ꯑꯣꯟꯊꯣꯀꯄꯥ ꯏꯟꯇꯔꯅꯦꯁ꯭ꯅꯦꯜ ꯃꯃꯂꯁꯤꯡ, ꯍꯀꯊꯦꯡꯅꯅꯥ ꯁꯣꯄꯤꯡ ꯁꯥꯏꯠ ꯑꯃꯍꯦꯛꯇꯗꯥ ꯌꯦꯡꯕꯤꯌꯨ꯫",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "ꯈꯉꯗꯣꯀꯄꯥ ꯉꯃꯈꯤ",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ꯔꯦꯠꯁꯤꯡ",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ꯁ꯭ꯇꯦꯇꯁ",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "ꯑꯦꯛꯁꯆꯦꯟꯖ ꯔꯦꯠꯁꯤꯡ ꯔꯤꯐ꯭ꯔꯦꯁ ꯇꯧꯕꯥ",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "ꯍꯧꯖꯤꯛ ꯍꯧꯖꯤꯛ ꯑꯄꯗꯦꯠ ꯇꯧꯈ꯭ꯔꯦ",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "$1 ꯃꯤꯅꯤꯠ ꯃꯃꯥꯡꯗꯥ ꯑꯄꯗꯦꯠ ꯇꯧꯈꯤꯕꯥ",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "$1h ꯃꯃꯥꯡꯗꯥ ꯑꯄꯗꯦꯠ ꯇꯧꯈ꯭ꯔꯦ",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ꯑꯣꯐꯂꯥꯏꯟ ꯔꯦꯠ ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "ꯃꯃꯂꯁꯤꯡ ꯎꯠꯄꯥ",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "ꯑꯦꯁ꯭ꯇꯤꯃꯦꯠ ꯇꯧꯕꯥ",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "ꯚꯦꯠ ꯑꯦꯁ꯭ꯇꯤꯃꯦꯠ ꯎꯠꯄꯥ",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "ꯏꯝꯄꯣꯔꯠ ꯗ꯭ꯌꯨꯇꯤꯒꯤ ꯑꯦꯁ꯭ꯇꯤꯃꯦꯠ ꯎꯠꯄꯥ",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "ꯄ꯭ꯔꯗꯛꯇ ꯀꯦꯇꯦꯒꯣꯔꯤ",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "ꯑꯦꯁ꯭ꯇꯤꯃꯦꯠ ꯈꯛꯇꯃꯛ ꯇꯧꯕꯥ꯫ ꯇꯁꯦꯡꯕꯥ ꯃꯃꯂꯁꯤꯡ ꯑꯁꯤ ꯀꯦꯔꯤꯌꯔ, ꯗꯤꯛꯂꯥꯔꯦꯠ ꯇꯧꯔꯕꯥ ꯚꯦꯜꯌꯨ, ꯑꯃꯁꯨꯡ ꯀꯁ꯭ꯇꯃꯁ ꯀ꯭ꯂꯥꯁꯤꯐꯤꯀꯦꯁꯅꯒꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯈꯦꯠꯅꯩ꯫",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ꯑꯦꯁ꯭ꯇꯤꯃꯦꯠ ꯈꯛꯇꯃꯛ ꯇꯧꯕꯥ꯫ ꯇꯁꯦꯡꯕꯥ ꯏꯝꯄꯣꯔꯇꯀꯤ ꯃꯃꯜ ꯑꯁꯤ ꯈꯦꯠꯅꯕꯥ ꯌꯥꯏ꯫",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "ꯗꯤꯁꯞꯂꯦ ꯑꯣꯄꯁꯅꯁꯤꯡ",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "ꯕꯦꯖꯒꯤ ꯄꯣꯖꯤꯁꯟ",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "ꯃꯃꯂꯒꯤ ꯃꯇꯨꯡꯗꯥ",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "ꯃꯃꯂꯒꯤ ꯃꯃꯥꯡꯗꯥ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "ꯐ꯭ꯂꯦꯒ ꯏꯃꯣꯖꯤ ꯎꯠꯄꯥ",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "ꯀꯝꯄꯦꯛꯇ ꯃꯣꯗ",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1ꯒꯤ ꯃꯃꯂꯁꯤꯡ ꯑꯁꯤ ꯄꯦꯖ ꯑꯁꯤꯗꯥ ꯑꯣꯟꯊꯣꯀꯈ꯭ꯔꯦ",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "ꯃꯃꯜ ꯑꯃꯠꯇꯥ ꯈꯉꯗꯣꯀꯄꯥ ꯉꯃꯈꯤꯗꯦ",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "ꯁꯣꯔꯁ",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "ꯄꯦꯖ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯁ꯭ꯀꯦꯟ ꯇꯧꯕꯥ",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "꯵꯰꯰+ꯒꯤ ꯃꯃꯜ ꯈꯉꯗꯣꯀꯈ꯭ꯔꯦ꯫ ꯑꯍꯥꯅꯕꯥ ꯵꯰꯰ ꯎꯠꯂꯤ",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "ꯄꯦꯖ ꯑꯁꯤꯗꯥ ꯔꯥꯌꯜ ꯄ꯭ꯔꯥꯏꯁ ꯏꯅꯦꯕꯜ ꯅꯠꯔꯒꯥ ꯗꯤꯁꯦꯕꯜ ꯇꯧꯕꯥ",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "ꯀꯟꯚꯥꯔꯠ ꯇꯧꯔꯕꯥ ꯃꯃꯜ",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "ꯗ꯭ꯌꯨꯇꯤ",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "ꯑꯔꯤꯖꯤꯅꯦꯜ ꯃꯃꯜ",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "ꯑꯦꯛꯁꯆꯦꯟꯖ ꯔꯦꯠ",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ꯀꯅꯕꯔꯠ ꯇꯧꯔꯕꯥ",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ꯚꯦꯠ ($꯱%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "ꯏꯁ꯭ꯠ. ꯗ꯭ꯌꯨꯇꯤ ($꯱%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "ꯑꯄꯨꯅꯕꯥ ꯑꯦꯁ꯭ꯇꯤꯃꯦꯠ",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "ꯔꯦꯠ ꯑꯁꯤꯒꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "ꯀꯦ.ꯑꯦꯁ.ꯑꯦ.: ꯱꯵% ꯚꯦꯠ (ꯔꯣꯌꯦꯜ ꯗꯤꯛꯔꯤ ꯑꯦꯝ/꯱꯱꯳, ꯲꯰꯲꯰) · ꯌꯨ.ꯑꯦ.ꯏ.: ꯵% ꯚꯦꯠ (ꯐꯦꯗꯔꯦꯜ ꯂꯣ ꯅꯪ ꯸, ꯲꯰꯱꯷)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "ꯏꯂꯦꯛꯠꯔꯣꯅꯤꯛꯁ",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "ꯄꯣꯠꯆꯩꯁꯤꯡ",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "ꯈꯣꯡꯎꯞ",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "ꯐꯔꯅꯤꯆꯔꯒꯤ ꯃꯔꯃꯗꯥ",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "ꯁꯥꯟꯅꯄꯣꯠꯁꯤꯡ",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "ꯀꯁꯃꯦꯇꯤꯛꯁ ꯑꯃꯁꯨꯡ ꯕꯤꯎꯇꯤ",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "ꯖꯨꯌꯦꯂꯥꯔꯤ",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "ꯐꯨꯗ ꯑꯃꯁꯨꯡ ꯒ꯭ꯔꯣꯁꯔꯤ",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "ꯂꯥꯏꯔꯤꯛ (꯰% ꯗ꯭ꯌꯨꯇꯤ)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "ꯍꯀꯁꯦꯂꯒꯤ ꯁꯞꯂꯤꯃꯦꯟꯇꯁꯤꯡ",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "ꯑꯣꯇꯣ ꯄꯥꯔꯇꯁ",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "ꯑꯇꯣꯞꯄ",
+    "description": "Product category: other"
+  }
+}

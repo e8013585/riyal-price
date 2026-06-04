@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "រីយ៉ាល់តម្លៃ",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "រីយ៉ាល់តម្លៃ",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "មើលតម្លៃអន្តរជាតិដែលបានបំប្លែងទៅជា Saudi Riyal (SAR) និង UAE Dirham (AED) ជាមួយនឹងអាករលើតម្លៃបន្ថែម និងការប៉ាន់ប្រមាណពន្ធនាំចូលដោយផ្ទាល់នៅលើគេហទំព័រទិញទំនិញណាមួយ។",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "រកឃើញ",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "អត្រា",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ស្ថានភាព",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "អត្រាប្តូរប្រាក់ឡើងវិញ",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "បានធ្វើបច្ចុប្បន្នភាពឥឡូវនេះ",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "បានធ្វើបច្ចុប្បន្នភាព $1 នាទីមុន",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "បានធ្វើបច្ចុប្បន្នភាព $1h មុន",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ដោយប្រើអត្រាក្រៅបណ្តាញ",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "បង្ហាញតម្លៃក្នុង",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "ការប៉ាន់ប្រមាណ",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "បង្ហាញការប៉ាន់ប្រមាណ VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "បង្ហាញការប៉ាន់ប្រមាណពន្ធនាំចូល",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "ប្រភេទផលិតផល",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "ការប៉ាន់ស្មានតែប៉ុណ្ណោះ។ ការចំណាយជាក់ស្តែងប្រែប្រួលតាមក្រុមហ៊ុនដឹកជញ្ជូន តម្លៃដែលបានប្រកាស និងចំណាត់ថ្នាក់គយ។",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ការប៉ាន់ស្មានតែប៉ុណ្ណោះ។ តម្លៃនាំចូលពិតប្រាកដអាចខុសគ្នា។",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "ជម្រើសបង្ហាញ",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "ទីតាំងផ្លាកសញ្ញា",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "ក្រោយតម្លៃ",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "មុនតម្លៃ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "បង្ហាញទង់ជាតិ emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "របៀបបង្រួម",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "តម្លៃ $1 បានបំប្លែងនៅលើទំព័រនេះ",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "រកមិនឃើញតម្លៃ",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "ប្រភព",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "ស្កេនទំព័រឡើងវិញ",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "តម្លៃ 500+ ត្រូវបានរកឃើញ។ បង្ហាញ 500 ដំបូង។",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "បើក ឬបិទ Riyal Price នៅលើទំព័រនេះ",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "តម្លៃបំប្លែង",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "កាតព្វកិច្ច",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "តម្លៃដើម",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "អត្រាប្តូរប្រាក់",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ប្រែចិត្ត",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "អាករលើតម្លៃបន្ថែម ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "ប៉ាន់ស្មាន កាតព្វកិច្ច ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "ការប៉ាន់ស្មានសរុប",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "អត្រាគិតជា",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (ព្រះរាជក្រឹត្យ M/113, 2020) · UAE: 5% VAT (ច្បាប់សហព័ន្ធលេខ 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "អេឡិចត្រូនិច",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "សំលៀកបំពាក់",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "ស្បែកជើង",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "គ្រឿងសង្ហារិម",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "តុក្កតា",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "កែសម្ផស្ស & សម្ផស្ស",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "គ្រឿងអលង្ការ",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "អាហារ និងគ្រឿងទេស",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "សៀវភៅ (កាតព្វកិច្ច 0%)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "អាហារបំប៉នសុខភាព",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "គ្រឿងបន្លាស់រថយន្ត",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "ផ្សេងៗ",
+    "description": "Product category: other"
+  }
+}

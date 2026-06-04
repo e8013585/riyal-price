@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Utu Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Utu Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Tirohia nga utu o te ao kua hurihia ki Saudi Riyal (SAR) me UAE Dirham (AED) me te VAT me nga utu utu kawemai, tika i runga i tetahi waahi hokohoko.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Kua kitea",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Reiti",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Tūnga",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Tāmata reiti whakawhiti",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "kua whakahoutia inaianei",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "whakahōu $1 min i mua",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "whakahōutia $1h ki muri",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "whakamahi reiti tuimotu",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Whakaatuhia nga utu i roto i te",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Whakatau",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Whakaatuhia te whakatau tata taake",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Whakaatuhia te utu utu kawemai",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Kāwai hua",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Nga whakatau tata anake. He rereke nga utu ma te kaikawe, te uara kua kiia, me te whakarōpūtanga tikanga.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Nga whakatau tata anake. He rereke pea nga utu kawemai.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Whakaaturia nga whiringa",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Tūnga tohu",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "I muri i te utu",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "I mua i te utu",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Whakaatuhia te haki emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Aratau kiato",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 nga utu i hurihia ki tenei wharangi",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Karekau he utu i kitea",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Puna",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Matawai ano te wharangi",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ utu i kitea. Whakaatu ana i te tuatahi 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Whakahohe, monohia ranei te Riyal Price i tenei wharangi",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Utu tahuri",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "mahi",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Utu taketake",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "utu utu",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Kua Tahuri",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. mahi ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Whakatau tata katoa",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Reiti mai i te",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Hikohiko",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "kakahu",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Huhu",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Taonga",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Taonga Taonga",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Poaka me te Ataahua",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Whakapaipai",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Kai me te hoko kai",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Pukapuka (0% mahi)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Tāpiritanga Hauora",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Nga Waahanga Aunoa",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Ētahi atu",
+    "description": "Product category: other"
+  }
+}

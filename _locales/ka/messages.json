@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "რიალი ფასი",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "რიალი ფასი",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "იხილეთ საერთაშორისო ფასები, კონვერტირებული საუდის რიალში (SAR) და არაბეთის გაერთიანებული საემიროების დირჰამში (AED) დღგ-ს და იმპორტის გადასახადის შეფასებით, პირდაპირ ნებისმიერ სავაჭრო საიტზე.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "აღმოჩენილი",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ტარიფები",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "სტატუსი",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "განაახლეთ გაცვლითი კურსი",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "განახლდა ახლახან",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "განახლებულია $1 წუთის წინ",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "განახლებულია $1სთ წინ",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ოფლაინ ტარიფების გამოყენებით",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "ფასების ჩვენება |||-ში შეფასება",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "დღგ-ს სავარაუდო ჩვენება",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "იმპორტის გადასახადის სავარაუდო ჩვენება",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "პროდუქტის კატეგორია",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "მხოლოდ შეფასებები. ფაქტობრივი ხარჯები განსხვავდება გადამზიდველის, დეკლარირებული ღირებულებისა და საბაჟო კლასიფიკაციის მიხედვით.",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "მხოლოდ შეფასებები. იმპორტის რეალური ხარჯები შეიძლება განსხვავდებოდეს.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ჩვენების პარამეტრები",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "სამკერდე პოზიცია",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "ფასის შემდეგ",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "ფასამდე",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "დროშის ჩვენება emoji",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "კომპაქტური რეჟიმი",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "__PH1__ ფასები გადაყვანილია ამ გვერდზე",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "ფასები არ არის გამოვლენილი",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "წყარო",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "გვერდის ხელახლა სკანირება",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "აღმოჩენილია 500+ ფასი. ნაჩვენებია პირველი 500.",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "ჩართეთ ან გამორთეთ Riyal Price ამ გვერდზე",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "კონვერტაციის ფასი",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "მოვალეობა",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "ორიგინალური ფასი",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "გაცვლითი კურსი",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "გადაკეთებული",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "დღგ (__PH1__%)",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ეს მოვალეობა ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "ჯამური შეფასება",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "შეფასება |||-დან KSA: 15% დღგ (სამეფო ბრძანებულება M/113, 2020) · UAE: 5% დღგ (ფედერალური კანონი No. 8, 2017)",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "ელექტრონიკა",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "ტანსაცმელი",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "ფეხსაცმელი",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "ავეჯი",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "სათამაშოები",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "კოსმეტიკა და სილამაზე",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "სამკაულები",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "საკვები და სასურსათო",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "წიგნები (0% გადასახადი)",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "ჯანმრთელობის დანამატები",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "ავტონაწილები",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "სხვა",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

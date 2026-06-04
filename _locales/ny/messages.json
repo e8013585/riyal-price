@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Mtengo wa Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Mtengo wa Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Onani mitengo yapadziko lonse lapansi yosinthidwa kukhala Saudi Riyal (SAR) ndi UAE Dirham (AED) yokhala ndi VAT komanso kuyerekezera kwamitengo yochokera kunja, mwachindunji patsamba lililonse lazogula.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Wapezeka",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Mitengo",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Chikhalidwe",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Tsitsaninso mitengo yosinthira",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "zasinthidwa pano",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "zasinthidwa mphindi $1 zapitazo",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "zasinthidwa $1h zapitazo",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "kugwiritsa ntchito mitengo yapaintaneti",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Onetsani mitengo mu",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Chiyerekezo",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Onetsani kuyerekezera kwa VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Onetsani kuyerekeza kwa msonkho wakunja",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Gulu lazinthu",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Zongoyerekeza. Mitengo yeniyeni imasiyana malinga ndi katundu, mtengo wake, ndi misinkhu.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Zongoyerekeza. Ndalama zenizeni zogulira katundu zitha kusiyana.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Zosankha zowonetsera",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Malo a baji",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Pambuyo pa mtengo",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Pamaso pa mtengo",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Onetsani mbendera emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Compact mode",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 mitengo yasinthidwa patsambali",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Palibe mitengo yomwe yapezeka",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Gwero",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Jambulaninso tsamba",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ mitengo yapezeka. Kuwonetsa zoyamba 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Yambitsani kapena kuletsa Mtengo wa Riyal patsamba lino",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Mtengo wosinthidwa",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "ntchito",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Mtengo woyambirira",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Mtengo wosinthira",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Otembenuzidwa",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. udindo ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Chiyerekezo chonse",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Mulingo wa",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Zamagetsi",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Zovala",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Nsapato",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Mipando",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Zoseweretsa",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Zodzoladzola & Kukongola",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Zodzikongoletsera",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Chakudya & Zakudya || Mabuku (0% ntchito)",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Zowonjezera Zaumoyo",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Zigawo Zagalimoto",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Zina",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

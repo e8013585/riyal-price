@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "রিয়াল দাম",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "রিয়াল দাম",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "সৌদি রিয়াল (SAR) এবং UAE দিরহাম (AED) তে রূপান্তরিত আন্তর্জাতিক মূল্যগুলি সরাসরি যেকোন শপিং সাইটে ভ্যাট এবং আমদানি শুল্কের অনুমান সহ দেখুন৷",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "সনাক্ত করা হয়েছে",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "রেট",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "স্ট্যাটাস",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "রিফ্রেশ বিনিময় হার",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "এইমাত্র আপডেট করা হয়েছে",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "আপডেট করা হয়েছে $1 মিনিট আগে",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "আপডেট করা হয়েছে $1ঘণ্টা আগে",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "অফলাইন রেট ব্যবহার করে",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "দাম দেখান",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "অনুমান",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "ভ্যাট অনুমান দেখান",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "আমদানি শুল্কের অনুমান দেখান",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "পণ্য বিভাগ",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "শুধুমাত্র অনুমান। প্রকৃত খরচ ক্যারিয়ার, ঘোষিত মান এবং কাস্টমস শ্রেণীবিভাগ দ্বারা পরিবর্তিত হয়।",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "শুধুমাত্র অনুমান। প্রকৃত আমদানি খরচ ভিন্ন হতে পারে।",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "প্রদর্শনের বিকল্পগুলি",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "ব্যাজ অবস্থান",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "দামের পরে",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "দামের আগে",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "পতাকা ইমোজি দেখান",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "কমপ্যাক্ট মোড",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 মূল্য এই পৃষ্ঠায় রূপান্তরিত",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "কোন দাম সনাক্ত করা হয়নি",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "উৎস",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "পৃষ্ঠা পুনরায় স্ক্যান করুন",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ দাম শনাক্ত করা হয়েছে। প্রথম 500 দেখানো হচ্ছে।",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "এই পৃষ্ঠায় রিয়াল মূল্য সক্ষম বা নিষ্ক্রিয় করুন",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "রূপান্তরিত মূল্য",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "কর্তব্য",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "আসল দাম",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "বিনিময় হার",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "রূপান্তরিত",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ভ্যাট ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "অনুমান। দায়িত্ব ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "মোট অনুমান",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "রেট || KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (ফেডারেল ল নং 8, 2017)",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "ইলেকট্রনিক্স",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "পোশাক",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "পাদুকা",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "আসবাবপত্র",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "খেলনা",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "প্রসাধনী ও সৌন্দর্য",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "গয়না",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "খাদ্য ও মুদি",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "বই (0% শুল্ক)",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "স্বাস্থ্য পরিপূরক",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "অটো পার্টস",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "অন্যান্য",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

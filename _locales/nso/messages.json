@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Theko ya Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Theko ya Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Bona ditheko tša boditšhabatšhaba tšeo di fetotšwego go Saudi Riyal (SAR) le UAE Dirham (AED) ka dikakanyo tša VAT le motšhelo wa go reka ka ntle, thwii lefelong lefe goba lefe la mabenkele.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "E lemogilwe",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Ditekanyetšo",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Boemo",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Hlabolla ditefello tsa phapanyetsano",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "e mpshafaditšwe bjale feela",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "e mpshafaditšwe $1 metsotso e fetilego",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "e mpshafaditšwe $1h e fetilego",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "go šomiša ditekanyo tša ka ntle ga inthanete",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Bontšha ditheko ka",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Tekanyetšo",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Bontšha tekanyetšo ya VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Bontšha tekanyetšo ya motšhelo wa go reka ka ntle",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Legoro la setšweletšwa",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Ditekanyetšo feela. Ditshenyagalelo tša kgonthe di fapana go ya ka morwadi, boleng bjo bo tsebagaditšwego le go hlopha ga meetlo.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Ditekanyetšo feela. Ditshenyagalelo tša nnete tša go reka ka ntle di ka fapana.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Dikgetho tša pontšho",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Boemo bja betšhe",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Ka morago ga theko",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Pele ga theko",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Bontšha emoji ya folaga",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Mokgwa wa go kopana",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 ditheko di fetotšwe letlakaleng le",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Ga go na ditheko tšeo di lemogilwego",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Mohlodi",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Sekena gape letlakala",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Ditheko tše 500+ di lemogilwe. Go bontšha pele 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Kgontšha goba šitiše Riyal Price letlakaleng le",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Theko e fetotsoeng",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "mošomo",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Theko ya mathomo",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Sekgahla sa phapanyetsano",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "E fetotšwe",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. mosebetsi ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Palomoka ya tekanyetšo",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Sekhahla e le sa",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Taelo ya Borena M/113, 2020) · UAE: 5% VAT (Molao oa Federale No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Dilo tša Elektroniki",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Diaparo",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Dieta tša dieta",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Thepa ya ka tlung",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Dibapadišwa",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Ditlolo & Botle",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Mabenyabje a",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Dijo & Dijo tša go rekiša dijo",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Dipuku (0% ya motšhelo)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Ditlaleletšo tša Maphelo",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Dikarolo tša Auto",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Nngwe",
+    "description": "Product category: other"
+  }
+}

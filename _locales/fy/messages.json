@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal Priis",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal Priis",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Sjoch ynternasjonale prizen omboud ta Saûdyske riyal (SAR) en UAE Dirham (AED) mei skatten fan btw en ymportrjochten, direkt op elke winkelside.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Opspoard",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tariven",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Ferfarskje wikselkoersen",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "bywurke krekt no",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "updated $1 min lyn",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "updated $1h lyn",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "offline tariven brûke",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Lit prizen sjen yn",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Skatting",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Lit btw skatting sjen",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Skatting ymportheffing sjen litte",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Produkt kategory",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Allinnich skattings. Eigentlike kosten ferskille per ferfierder, ferklearre wearde, en dûaneklassifikaasje.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Allinnich skattings. Werklike ymportkosten kinne ferskille.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Opsjes werjaan",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Badge posysje",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Nei priis",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Foar priis",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Flagge-emoji sjen litte",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Kompakte modus",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 prizen konvertearre op dizze side",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Gjin prizen fûn",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Boarne",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Re-scan side",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ prizen ûntdutsen. Showing earste 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Riyal Priis op dizze side yn- of útskeakelje",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Omrekkene priis",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "plicht",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Oarspronklik priis",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Wisselkoers",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Konvertearre",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "BTW ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. plicht ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Totale skatting",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Taryf as fan",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% BTW (Keninklik Beslút M/113, 2020) · UAE: 5% BTW (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektroanika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Kleding",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Footwear",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Meubels",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Boartersguod",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetica en skientme",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Sieraden",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Food & Grocery",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Boeken (0% plicht)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Oar",
+    "description": "Product category: other"
+  }
+}

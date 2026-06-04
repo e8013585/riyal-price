@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "리얄 가격",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "리얄 가격",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "모든 쇼핑 사이트에서 VAT 및 수입관세 견적을 포함하여 사우디 리얄(SAR) 및 UAE 디르함(AED)으로 변환된 국제 가격을 직접 확인하세요.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "감지됨",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "요금",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "상태",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "환율 새로 고침",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "방금 업데이트됨",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "$1분 전에 업데이트됨",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "$1시간 전에 업데이트됨",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "오프라인 요금을 사용 중",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "|||로 가격 표시 추정",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "VAT 추정 보기",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "수입관세 추정 보기",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "제품 카테고리",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "견적만 가능합니다. 실제 비용은 운송업체, 신고 가격, 관세 분류에 따라 다릅니다.",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "견적만 가능합니다. 실제 수입 비용은 다를 수 있습니다.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "표시 옵션",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "배지 위치",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "가격 이후",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "가격 전",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "깃발 이모티콘 표시",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "컴팩트 모드",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "__PH1__ 가격은 이 페이지에서 변환되었습니다",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "가격이 감지되지 않았습니다",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "출처",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "페이지 다시 스캔",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "500개 이상의 가격이 감지되었습니다. 처음 500개를 표시합니다.",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "이 페이지에서 리얄 가격을 활성화 또는 비활성화",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "변환된 가격",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "의무",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "원래 가격",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "환율",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "변환됨",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "부가가치세(__PH1__%)",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "예상 관세 ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "총 추정치",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "||| 기준 평가 KSA: 15% VAT(Royal Decree M/113, 2020) · UAE: 5% VAT(연방법 No. 8, 2017)",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "전자제품",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "의류",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "신발",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "가구",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "장난감",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "화장품 및 미용",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "보석",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "음식 및 식료품",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "도서(관세 0%)",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "건강 보조식품",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "자동차 부품",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "다른",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

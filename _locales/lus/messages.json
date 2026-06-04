@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal man",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal man",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "International price Saudi Riyal (SAR) leh UAE Dirham (AED)-a convert chu VAT leh import duty estimate nen en la, eng shopping site-ah pawh direct-in en rawh.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Hmuhchhuah a ni",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Rate hrang hrang",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "A dinhmun",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Exchange rates thar leh rawh",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "tunah chauh update a ni tawh",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "updated $1 min kalta khan",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "updated $1h kalta khan",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "offline rate hmanga siam",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Hman man entir",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "A chhut dan",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "VAT estimate entir",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Import duty estimate entir",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Thil siam chhuah chi hrang hrang",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Estimate chauh a ni. Cost tak tak hi carrier, declared value, leh customs classification hrang hrangah a inang lo.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Estimate chauh a ni. Import man tak tak pawh a inang lo thei.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Display duhthlan tur",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Badge dinhmun",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "A man hnuah",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "A hmaa man",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Flag emoji entir",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Compact mode",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 man te hi he page ah hian convert a ni",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Hman man hmuhchhuah a ni lo",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Thu lakna",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Re-scan leh tur page",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ man hmuhchhuah a ni. A hmasa ber 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "He page ah hian Riyal Price enable emaw disable emaw",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Hman man thlak danglam",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "duty",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "A man hmasa ber",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Exchange rate",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Piangthar tawh",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. duty ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "A pum puia chhut",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rate chu",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electronics lam hawi",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Thawmhnaw",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Kekawrte",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Furniture hman tur",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Infiamna hmanrua",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Hmelthatna",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jewelry te",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Ei leh in leh ei leh in",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Lehkhabu (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Hriselna atana hman tur Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts te",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Thildang",
+    "description": "Product category: other"
+  }
+}

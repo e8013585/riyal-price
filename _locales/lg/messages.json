@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Bbeeyi ya Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Bbeeyi ya Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Laba emiwendo gy’ensi yonna egyakyusibwa ne gifuulibwa Saudi Riyal (SAR) ne UAE Dirham (AED) nga gibalirirwamu omusolo gwa VAT n’omusolo oguyingizibwa mu ggwanga, butereevu ku mukutu gwonna ogw’okugula ebintu.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Kizuuliddwa",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Emiwendo",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Embeera",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Okuzza obuggya emiwendo gy'ensimbi",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "updated kati kati",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "yatereezeddwa $1 eddakiika eziyise",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "yatereezeddwa $1h emabega",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "nga okozesa emiwendo egitali ku mutimbagano",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Laga emiwendo mu",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Okubalirira",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Laga okubalirira kwa VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Laga okubalirira kw'omusolo ku bintu ebiyingizibwa mu ggwanga",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Ekika ky'ebintu",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Okubalirira kwokka. Ebisale ebituufu byawukana okusinziira ku basitula, omuwendo ogwalangirirwa, n’okugabanya kwa kasitooma.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Okubalirira kwokka. Ebisale byennyini ebiyingizibwa mu ggwanga biyinza okwawukana.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Okwolesebwa eby'okulonda",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Ekifo kya badge",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Oluvannyuma lw'ebbeeyi",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Nga bbeeyi tennabaawo",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Laga emoji ya bendera",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Enkola ya compact",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 emiwendo gikyusiddwa ku muko guno",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Tewali miwendo gyazuuliddwa",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Ensibuko",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Ddamu okusika omuko",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Emiwendo 500+ gizuuliddwa. Okulaga okusooka 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Ssobozesa oba lemesa Riyal Price ku lupapula luno",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Bbeeyi ekyusiddwa",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "omulimu",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Bbeeyi eyasooka",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Omuwendo gw'ensimbi",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Abakyusiddwa",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. omulimu ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Okubalirira kw'omugatte",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Omuwendo nga bwe gwa",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Ekiragiro ky’Obwakabaka M/113, 2020) · UAE: 5% VAT (Etteeka lya Federo No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Ebyuma ebikozesebwa mu byuma bikalimagezi",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Engoye",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Engatto",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Ebintu by'omu nnyumba",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Eby'okuzannyisa",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Ebizigo n'okulabika obulungi",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Eby'okwewunda",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Emmere & Eby'okulya",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Ebitabo (0% omusolo)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Ebirungo ebiyamba ku bulamu",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Ebitundu by'emmotoka",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Lala",
+    "description": "Product category: other"
+  }
+}

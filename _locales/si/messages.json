@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "රියාල් මිල",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "රියාල් මිල",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "VAT සහ ආනයන බදු ඇස්තමේන්තු සමඟ සෞදි රියාල් (SAR) සහ UAE Dirham (AED) බවට පරිවර්තනය කරන ලද ජාත්‍යන්තර මිල ගණන්, ඕනෑම සාප්පු සවාරි අඩවියකින් සෘජුවම බලන්න.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "අනාවරණය කර ගත්තා",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "මිල ගණන්",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "තත්ත්වය",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "විනිමය අනුපාත නැවුම් කරන්න",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "දැන් යාවත්කාලීන කරන ලදී || යාවත්කාලීන __PH1__ min පෙර",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "යාවත්කාලීන $1h පෙර",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "නොබැඳි ගාස්තු භාවිතා කරමින්",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "හි මිල පෙන්වන්න || ඇස්තමේන්තු",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "VAT ඇස්තමේන්තුව පෙන්වන්න || ආනයන බදු ඇස්තමේන්තුව පෙන්වන්න || නිෂ්පාදන කාණ්ඩය",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "ඇස්තමේන්තු පමණි. සැබෑ පිරිවැය වාහකය, ප්රකාශිත වටිනාකම සහ රේගු වර්ගීකරණය අනුව වෙනස් වේ.",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "ඇස්තමේන්තු පමණි. සැබෑ ආනයන වියදම් වෙනස් විය හැක.",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "සංදර්ශක විකල්ප",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "ලාංඡන ස්ථානය",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "මිලෙන් පසු || මිලට පෙර || කොඩි ඉමොජි පෙන්වන්න",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "සංයුක්ත මාදිලිය",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "__PH1__ මිල ගණන් මෙම පිටුවේ පරිවර්තනය කර ඇත",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "මිල ගණන් අනාවරණය වී නොමැත",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "මූලාශ්රය",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "පිටුව නැවත පරිලෝකනය කරන්න",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "500+ මිල ගණන් අනාවරණය විය. පළමු 500 පෙන්වමින්. || මෙම පිටුවෙහි රියාල් මිල සක්‍රීය හෝ අක්‍රිය කරන්න",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "පරිවර්තනය කළ මිල",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "රාජකාරිය",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "මුල් මිල",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "විනිමය අනුපාතය",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "පරිවර්තනය",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "VAT (__PH1__%)",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "EST. රාජකාරිය (__PH1__%)",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "සම්පූර්ණ ඇස්තමේන්තුව",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "අනුපාතය ලෙස || KSA: 15% VAT (රාජකීය නියෝගය M/113, 2020) · UAE: 5% VAT (ෆෙඩරල් නීතිය අංක 8, 2017)",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "ඉලෙක්ට්‍රොනික",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "ඇඳුම් පැළඳුම් || පාවහන්",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ගෘහ භාණ්ඩ",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "සෙල්ලම් බඩු",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "රූපලාවන්‍ය සහ රූපලාවන්‍ය",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "ස්වර්ණාභරණ",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "ආහාර සහ සිල්ලර බඩු || පොත් (0% තීරුබදු)",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "සෞඛ්‍ය අතිරේක",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "වාහන අමතර කොටස් || වෙනත්",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Clothing",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Footwear",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Furniture",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Toys",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Beauty",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jewelry",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Food & Grocery",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Books (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

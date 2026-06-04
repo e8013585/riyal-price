@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Motuya ya Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Motuya ya Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Tala ba prix internationals oyo ebongwani na Riyal Saoudite (SAR) mpe Dirham ya Emirats Arabes Unis (AED) na ba estimations ya TVA mpe ya droit de importation, directement na site nionso ya kosomba biloko.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Ezwami",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Ba taux ya",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Ezalela ya",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Refresh ba taux ya change",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "mise à jour kaka sikoyo",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "mise à jour $1 min eleki",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "mise à jour $1h eleki",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "kosalela ba taux hors ligne",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Lakisa ba prix na",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Estimation ya mbongo",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Lakisa estimation ya TVA",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Lakisa estimation ya mpako ya importation",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Catégorie ya produit",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Ba estimations kaka. Ba frais ya solo ekeseni na mokumbi, motuya oyo esakolami, mpe classification ya douane.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Ba estimations kaka. Ba frais ya solo ya importation ekoki kokesana.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Ba options ya kolakisa",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Position ya badge",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Sima ya prix",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Liboso ya prix",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Lakisa emoji ya drapeau",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Mode compact",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 ba prix ebongwani na page oyo",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Ba prix moko te e détecté",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Liziba ya",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Kozongela scanner lokasa",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ ba prix e détecté. Kolakisa liboso 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Activer to désactiver Riyal Price na page oyo",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Prix ​​ebongwani",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "mokumba",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Motuya ya ebandeli",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Taux d'échange",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Babongwanaki",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "TVA ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. mosala ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Ekanisami mobimba",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Taux lokola ya",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% TVA (Decret royal M/113, 2020) · Emirats Arabes Unis: 5% TVA (Loi fédéral No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electronique",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Elamba ya kolata",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Sapato ya sapato",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Meubles ya ndako",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Biloko ya kosakana na yango",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Biloko ya kosepelisa & Kitoko",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Bijoux ya bijoux",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Bilei & Biloko ya kolia",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Mikanda (0% ya mpako)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Ba Suppléments ya Santé",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Biloko ya motuka",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Mosusu",
+    "description": "Product category: other"
+  }
+}

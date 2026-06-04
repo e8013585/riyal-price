@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Риал үнэ",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Риал үнэ",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Саудын Арабын риал (SAR) болон АНЭУ-ын дирхам (AED) руу хөрвүүлсэн олон улсын үнийг НӨАТ болон импортын татварын тооцоололтой хамт дурын худалдааны сайтаас шууд харна уу.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Илэрсэн",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Үнэ",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Төлөв",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Валютын ханшийг шинэчлэх",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "яг одоо шинэчлэгдсэн",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "$1 минутын өмнө шинэчлэгдсэн",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "$1цаг өмнө шинэчлэгдсэн",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "офлайн тарифыг ашиглах",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "|||-д үнийг харуулах Тооцоолол",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "НӨАТ-ын тооцоог харуулах",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Импортын татварын тооцоог харуулах",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Бүтээгдэхүүний ангилал",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Зөвхөн тооцоо. Бодит зардал нь тээвэрлэгч, мэдүүлсэн үнэ, гаалийн ангилал зэргээс хамаарч өөр өөр байдаг.",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Зөвхөн тооцоолол. Бодит импортын зардал өөр байж болно.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Дэлгэцийн сонголт",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Тэмдгийн байрлал",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Үнийн дараа",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Үнэнээс өмнө",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Тугны эможи",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "харуулах Компакт горим",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "__PH1__ үнийг энэ хуудсан дээр хөрвүүлсэн",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "Үнэ илрээгүй",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Эх сурвалж",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Хуудсыг дахин скан хийх",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "500+ үнэ илэрсэн. Эхний 500-г харуулж байна.",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Энэ хуудсан дээр Riyal үнийг идэвхжүүлэх эсвэл идэвхгүй болгох",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Хөрвүүлсэн үнэ",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "үүрэг",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "Жинхэнэ үнэ",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Валютын ханш",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Хөрвүүлсэн",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "НӨАТ (__PH1__%)",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "Тооцоолол. үүрэг ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Нийт тооцоо",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "|||-ны өдрийн ханш KSA: 15% НӨАТ (Хааны зарлигийн M/113, 2020) · АНЭУ: 5% НӨАТ (Холбооны хууль 2017 оны 8 дугаартай)",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Электрон бараа",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "Хувцас",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Гутал",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Тавилга",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Тоглоом",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Гоо сайхны бүтээгдэхүүн, гоо сайхан",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Үнэт эдлэл",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Хүнс, хүнсний бүтээгдэхүүн",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Ном (0% татвар)",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Эрүүл мэндийн нэмэлтүүд",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Автомашины сэлбэг",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Бусад",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

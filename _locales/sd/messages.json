@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "ريال جي قيمت || ريال جي قيمت || ڏسو بين الاقوامي قيمتون سعودي ريال (SAR) ۽ UAE درهم (AED) ۾ تبديل ٿيل VAT ۽ درآمدي ڊيوٽي تخميني سان، سڌو سنئون ڪنهن به شاپنگ سائيٽ تي.",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "معلوم ٿيو",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "قيمتون",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "اسٽيٽس",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ريفريش مٽا سٽا جي شرح",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "تازو تازو ڪيو ويو",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "اپڊيٽ ڪيو __PH1__ منٽ اڳ",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "اپڊيٽ ڪيو ويو __PH1__ ڪلاڪ اڳ",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "آف لائن ريٽ استعمال ڪندي",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "قيمتون ڏيکاريو ۾",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "تخمينو",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "ڏيکاريو VAT تخمينو",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "امپورٽ ڊيوٽي جو تخمينو ڏيکاريو",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "پيداوار جو درجو",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "تخمينو صرف. حقيقي قيمتون ڪيريئر، اعلان ڪيل قيمت، ۽ رواج جي درجه بندي جي لحاظ کان مختلف آهن.",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "تخمينو صرف. حقيقي درآمد جي قيمت مختلف ٿي سگھي ٿي.",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "ڊسپلي جا اختيار",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "بيج پوزيشن",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "قيمت کان پوءِ",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "قيمت کان اڳ",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "ڏيکاريو پرچم ايموجي",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "ڪمپيڪٽ موڊ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "__PH1__ قيمتون ھن صفحي تي تبديل ڪيون ويون آھن",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "ڪابه قيمت نه ملي آهي",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "ذريعو",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "صفحي کي ٻيهر اسڪين ڪيو",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "500+ قيمتون معلوم ٿيون. ڏيکاريو ويو پهريون 500.",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "ھن صفحي تي ريال قيمت کي فعال يا غير فعال ڪريو",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "تبديل ٿيل قيمت",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "فرض",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "اصل قيمت",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "مٽا سٽا جي شرح || تبديل ٿيل",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "VAT (__PH1__%)",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "ايسٽ. فرض (__PH1__%)",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ڪل تخمينو",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "جي طور تي شرح",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (وفاقي قانون نمبر 8, 2017)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "اليڪٽرانڪس",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "ڪپڙا",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "جوتا",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "فرنيچر",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "رانديڪا",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "سينگار ۽ خوبصورتي",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "زيور",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "کاڌو ۽ پسارڪو",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "ڪتاب (0% فرض)",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "صحت جا سپليمينٽس",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "گاڏين جا حصا",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "ٻيو",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

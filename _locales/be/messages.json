@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Кошт рыяла",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Кошт рыяла",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Глядзіце міжнародныя цэны ў канвертацыі ў Саудаўскі рыял (SAR) і дырхам ААЭ (AED) з ПДВ і ацэнкай імпартнай пошліны непасрэдна на любым гандлёвым сайце.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Выяўлена",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Стаўкі",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Статус",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Абнавіць курсы валют",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "толькі што абноўлена",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "абноўлена $1 хвілін таму",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "абноўлена $1гадз таму",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "з выкарыстаннем аўтаномных тарыфаў",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Паказаць цэны ў",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Ацэнка",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Паказаць ацэнку ПДВ",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Паказаць ацэнку імпартнай пошліны",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Катэгорыя прадукту",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Толькі ацэнкі. Фактычныя выдаткі залежаць ад перавозчыка, заяўленай каштоўнасці і мытнай класіфікацыі.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Толькі ацэнкі. Фактычныя выдаткі на імпарт могуць адрознівацца.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Параметры адлюстравання",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Палажэнне значка",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Пасля цаны",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Перад цаной",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Паказаць эмодзі са сцягам",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Кампактны рэжым",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "Цэны $1 пераўтвораны на гэтай старонцы",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Цэны не выяўлены",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Крыніца",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Паўторнае сканаванне старонкі",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Выяўлена больш за 500 цэн. Паказваюцца першыя 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Уключыце або адключыце цану ў рыяле на гэтай старонцы",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Канвертаваная цана",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "абавязак",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Першапачатковая цана",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Абменны курс",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Пераўтвораны",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ПДВ ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Разлік пошліна ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Агульны каштарыс",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Стаўка па стане на",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% ПДВ (Каралеўскі ўказ M/113, 2020 г.) · ААЭ: 5% ПДВ (Федэральны закон № 8, 2017 г.)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Электроніка",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Адзенне",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Абутак",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Мэбля",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Цацкі",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Касметыка і прыгажосць",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Ювелірныя вырабы",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Ежа і бакалея",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Кнігі (0% пошліна)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Дабаўкі для здароўя",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Аўтазапчасткі",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Іншае",
+    "description": "Product category: other"
+  }
+}

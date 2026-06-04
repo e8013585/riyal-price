@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Cijena rijala",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Cijena rijala",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Pogledajte međunarodne cijene preračunate u saudijski rijal (SAR) i dirham UAE (AED) s PDV-om i procjenama uvoznih carina, direktno na bilo kojoj web stranici za kupovinu.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Otkriveno",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Cijene",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Osvježite kurseve",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "ažurirano upravo sada",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "ažurirano prije $1 min",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "ažurirano prije $1h",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "koristeći offline tarife",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Prikaži cijene u",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Procjena",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Prikaži procjenu PDV-a",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Prikaži procjenu uvozne carine",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Kategorija proizvoda",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Samo procjene. Stvarni troškovi variraju u zavisnosti od prevoznika, deklarisane vrednosti i carinske klasifikacije.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Samo procjene. Stvarni troškovi uvoza mogu se razlikovati.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Opcije prikaza",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Pozicija značke",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Nakon cijene",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Prije cijene",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Prikaži emoji zastave",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Kompaktni način rada",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 cijene preračunate na ovoj stranici",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Cijene nisu otkrivene",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Izvor",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Ponovno skenirajte stranicu",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Otkriveno više od 500 cijena. Prikazujem prvih 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Omogućite ili onemogućite Riyal Price na ovoj stranici",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Preračunata cijena",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "dužnost",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Originalna cijena",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Kurs",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Pretvoreno",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "PDV ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Procjena dužnost ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Ukupna procjena",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Stopa od",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% PDV (Kraljevski dekret M/113, 2020) · UAE: 5% PDV (Savezni zakon br. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Odjeća",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Obuća",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Namještaj",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Igračke",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kozmetika i ljepota",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Nakit",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Hrana i namirnice",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Knjige (0% carine)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Zdravstveni dodaci",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto dijelovi",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Ostalo",
+    "description": "Product category: other"
+  }
+}

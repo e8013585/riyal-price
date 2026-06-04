@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal prezioa",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal prezioa",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Ikusi Saudi Riyal (SAR) eta UAE Dirham (AED) bihurtutako nazioarteko prezioak BEZarekin eta inportazio-zergen estimazioekin, zuzenean edozein erosketa gunetan.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Detektatu",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tarifak",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Egoera",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Freskatu truke-tasak",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "oraintxe eguneratua",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "eguneratua duela $1 minutu",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "eguneratua duela $1h",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "lineaz kanpoko tarifak erabiliz",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Erakutsi prezioak",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Estimazioa",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Erakutsi BEZaren estimazioa",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Erakutsi inportazio-zergaren estimazioa",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Produktuen kategoria",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Estimazioak soilik. Benetako kostuak garraiolariaren, deklaratutako balioaren eta aduana-sailkapenaren arabera aldatzen dira.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Estimazioak soilik. Benetako inportazio kostuak desberdinak izan daitezke.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Bistaratzeko aukerak",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Txapa posizioa",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Prezioa ondoren",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Prezioa baino lehen",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Erakutsi bandera emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Modu trinkoa",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 prezioak orrialde honetan bihurtuta",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Ez da preziorik hauteman",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Iturria",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Berriro eskaneatu orria",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500 prezio baino gehiago detektatu dira. Lehenengo 500 erakusten.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Gaitu edo desgaitu Riyal Price orrialde honetan",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Bihurtutako prezioa",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "betebeharra",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Jatorrizko prezioa",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Kanbio-tasa",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Bihurtu",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "BEZa ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. betebeharra ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Zenbatespen osoa",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Tasa",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: % 15eko BEZa (M/113 Errege Dekretua, 2020) · EAE: % 5eko BEZa (2017ko 8. Lege Federala)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Arropa",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Oinetakoak",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Altzariak",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Jostailuak",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmetika eta edertasuna",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Bitxiak",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Janaria eta janaria",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Liburuak (zerga %0)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Osasun Osagarriak",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto piezak",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Bestela",
+    "description": "Product category: other"
+  }
+}

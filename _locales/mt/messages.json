@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Prezz tar-Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Prezz tar-Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Ara l-prezzijiet internazzjonali kkonvertiti għal Saudi Riyal (SAR) u UAE Dirham (AED) bi stimi tal-VAT u tad-dazju tal-importazzjoni, direttament fuq kwalunkwe sit tax-xiri.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Individwat",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Rati",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Aġġorna r-rati tal-kambju",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "aġġornata biss issa",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "aġġornat $1 min ilu",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "aġġornat $1h ilu",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "bl-użu ta' rati offline",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Uri l-prezzijiet fi",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Stima",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Uri l-istima tal-VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Uri stima tad-dazju tal-importazzjoni",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Kategorija tal-prodott",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Stimi biss. L-ispejjeż attwali jvarjaw skont it-trasportatur, il-valur iddikjarat, u l-klassifikazzjoni doganali.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Stimi biss. L-ispejjeż attwali tal-importazzjoni jistgħu jvarjaw.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Għażliet tal-wiri",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Pożizzjoni tal-badge",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Wara l-prezz",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Qabel il-prezz",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Uri l-emoji tal-bandiera",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Modalità kompatta",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 prezzijiet konvertiti f'din il-paġna",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Ebda prezzijiet misjuba",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Sors",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Erġa' skennja l-paġna",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ prezz misjuba. Juri l-ewwel 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Attiva jew iddiżattiva Riyal Price fuq din il-paġna",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Prezz konvertit",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "dazju",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Prezz oriġinali",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Rata tal-kambju",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Maqluba",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. dazju ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Stima totali",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rata minn",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15 % VAT (Digriet Irjali M/113, 2020) · UAE: 5 % VAT (Liġi Federali Nru 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elettronika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Ħwejjeġ",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Xedd tas-saqajn",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Għamara",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Ġugarelli",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kożmetiċi u Sbuħija",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Ġojjellerija",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Ikel u Grocer",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Kotba (0% dazju)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Supplimenti tas-Saħħa",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Partijiet tal-Karozzi",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Oħrajn",
+    "description": "Product category: other"
+  }
+}

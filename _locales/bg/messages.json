@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Цена в риал",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Цена в риал",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Вижте международните цени, преобразувани в саудитски риал (SAR) и дирхам на ОАЕ (AED) с прогнози за ДДС и вносни мита, директно на всеки сайт за пазаруване.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Открит",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Цени",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Статус",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Обновяване на обменните курсове",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "актуализиран току-що",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "актуализиран преди $1 минути",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "актуализиран преди $1ч",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "използване на офлайн тарифи",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Показване на цените в",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Оценка",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Показване на оценка на ДДС",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Показване на оценка на вносното мито",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Продуктова категория",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Само прогнози. Действителните разходи варират според превозвача, декларираната стойност и митническата класификация.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Само прогнози. Действителните разходи за внос може да се различават.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Опции за показване",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Позиция на значката",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "След цена",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Преди цена",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Показване на флаг емотикони",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Компактен режим",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 цени, конвертирани на тази страница",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Няма открити цени",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Източник",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Повторно сканиране на страница",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Открити са над 500 цени. Показани са първите 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Активиране или деактивиране на цена риал на тази страница",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Преизчислена цена",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "мито",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Оригинална цена",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Обменен курс",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Преобразуван",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ДДС ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Прогн. мито ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Обща оценка",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Оценка към",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% ДДС (Кралски указ M/113, 2020 г.) · ОАЕ: 5% ДДС (Федерален закон № 8, 2017 г.)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Електроника",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Облекло",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Обувки",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Мебели",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Играчки",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Козметика и красота",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Бижута",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Храна и хранителни стоки",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Книги (0% мито)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Здравни добавки",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Авточасти",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "други",
+    "description": "Product category: other"
+  }
+}

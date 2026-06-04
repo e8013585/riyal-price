@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "قیمت ریال",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "قیمت ریال",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "قیمت‌های بین‌المللی تبدیل شده به ریال عربستان (SAR) و درهم امارات (AED) را با برآورد مالیات بر ارزش افزوده و حقوق ورودی، مستقیماً در هر سایت خرید مشاهده کنید.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "شناسایی شد",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "نرخ ها",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "وضعیت",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "تازه کردن نرخ ارز",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "همین الان آپدیت شد",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "به روز شده $1 دقیقه قبل",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "به روز شده $1h قبل",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "استفاده از نرخ های آفلاین",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "نمایش قیمت ها در",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "تخمین",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "نمایش برآورد مالیات بر ارزش افزوده",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "نمایش برآورد حقوق ورودی",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "دسته بندی محصول",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "فقط برآورد هزینه های واقعی بر اساس حامل، ارزش اظهار شده و طبقه بندی گمرکی متفاوت است.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "فقط برآورد هزینه های واقعی واردات ممکن است متفاوت باشد.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "گزینه های نمایش",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "موقعیت نشان",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "پس از قیمت",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "قبل از قیمت",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "نمایش شکلک پرچم",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "حالت فشرده",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 قیمت در این صفحه تبدیل شده است",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "هیچ قیمتی شناسایی نشد",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "منبع",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "اسکن مجدد صفحه",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "بیش از 500 قیمت شناسایی شد. نمایش اولین 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "فعال یا غیر فعال کردن ریال قیمت در این صفحه",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "قیمت تبدیل شده",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "وظیفه",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "قیمت اصلی",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "نرخ ارز",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "تبدیل شده",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "مالیات بر ارزش افزوده ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "برآورد وظیفه ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "کل برآورد",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "نرخ از",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15٪ مالیات بر ارزش افزوده (فرمان سلطنتی M/113، 2020) · امارات متحده عربی: 5٪ مالیات بر ارزش افزوده (قانون فدرال شماره 8، 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "الکترونیک",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "لباس",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "کفش",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "مبلمان",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "اسباب بازی",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "لوازم آرایشی و زیبایی",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "جواهرات",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "غذا و خواربار",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "کتاب (0% وظیفه)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "مکمل های سلامت",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "قطعات خودرو",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "دیگر",
+    "description": "Product category: other"
+  }
+}

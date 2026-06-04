@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal Prays",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal Prays",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Si intanashɔnal prayz dɛn we dɛn dɔn kɔnvɔyt to Saudi Riyal (SAR) ɛn UAE Dirham (AED) wit VAT ɛn import duty ɛstimat, dairekt na ɛni shopin sayt.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Dɛn dɔn detekt am",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Di ret dɛn",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status we yu gɛt",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Rifresh di exchenj rεt",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "ɔpdet jɔs naw",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "apdet $1 min bifo",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "apdet $1h bifo",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "yuz ɔflayn rɛt",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Sho di prayz dɛn na",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Ɛstimatshɔn",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Sho di VAT ɛstimat",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Sho di ɛstimat fɔ di import duty",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Kategori Prodakt",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Na ɛstimat nɔmɔ. Di rial kɔst dɛn kin difrɛn bay di kariɔ, di valyu we dɛn dɔn diklare, ɛn di kɔstɔm klasification.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Na ɛstimat nɔmɔ. Di rial kɔst fɔ import kin difrɛn.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Display opshɔn dɛn",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Badge pozishɔn",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Afta prayz",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Bifo prayz",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Sho flag emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Kompakt mod",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 prayz dɛn we dɛn dɔn kɔnvɔyt na dis pej",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "No prayz nɔ detekt",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Sos we kɔmɔt",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Ri-skan pej",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ prayz dɛn we dɛn dɔn detekt. Sho di fɔs 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Enable ɔ disable Riyal Price na dis pej",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Prays we dɛn dɔn kɔnvɔyt",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "diuti fɔ du",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Orijinal prays",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Ekshɛnj rɛt",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Dɛn dɔn chenj am",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. diuti ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Total ɛstimat",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rate as of",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Dikrɛt M/113, 2020) · UAE: 5% VAT (Fɛdaral Lɔ Nɔmba 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Ilɛktroniks",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Klos we yu de wɛr",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Fut we dɛn kin wɛr",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Fɛnichɔ fɔ mek",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Toys dɛn we dɛn kin yuz",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmetik & Biuti",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jɛlɔri",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Fɔd & Grosari",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Buk dɛn (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Ɛlth Suplimɛnt dɛn",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Oto Pat dɛn",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Ɔda",
+    "description": "Product category: other"
+  }
+}

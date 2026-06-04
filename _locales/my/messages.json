@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal ဈေးနှုန်း",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal ဈေးနှုန်း",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "နိုင်ငံတကာစျေးနှုန်းများကို Saudi Riyal (SAR) နှင့် UAE Dirham (AED) သို့ ပြောင်းလဲထားသော VAT နှင့် သွင်းကုန်ခွန်ခန့်မှန်းချက်များကို မည်သည့်စျေးဝယ်ဆိုက်တွင်မဆို တိုက်ရိုက်ကြည့်ရှုပါ။",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "ရှာဖွေတွေ့ရှိ",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "နှုန်းများ",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "အဆင့်အတန်း",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "ငွေလဲနှုန်းများ ပြန်လည်စတင်ပါ",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "အခုပဲ အပ်ဒိတ်လုပ်",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "လွန်ခဲ့သော $1 မိနစ်က အပ်ဒိတ်လုပ်ခဲ့သည်",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "လွန်ခဲ့သော $1h က အပ်ဒိတ်လုပ်ခဲ့သည်",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "အော့ဖ်လိုင်းနှုန်းထားများကို အသုံးပြု၍",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "ဈေးနှုန်းများကို",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "တွင် ပြပါ။ ခန့်မှန်းချက်",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "VAT ခန့်မှန်းချက်",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "ပြပါ။ သွင်းကုန်ခွန် ခန့်မှန်းချက်",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "ပြပါ။ ကုန်ပစ္စည်းအမျိုးအစား",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "ခန့်မှန်းချက်များသာ။ အမှန်တကယ် ကုန်ကျစရိတ်များသည် ဝန်ဆောင်မှုပေးသူ၊ ကြေညာထားသော တန်ဖိုးနှင့် အကောက်ခွန် အမျိုးအစားအလိုက် ကွဲပြားသည်။",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ခန့်မှန်းချက်များသာ။ အမှန်တကယ် တင်သွင်းစရိတ် ကွာခြားနိုင်သည်။",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "ပြသရန် ရွေးချယ်စရာများ",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "တံဆိပ်အနေအထား",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "စျေးနှုန်း",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "စျေးနှုန်း",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "အလံ အီမိုဂျီ ပြရန်",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "ကျစ်လျစ်သောမုဒ်",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 စျေးနှုန်းများကို ဤစာမျက်နှာတွင် ပြောင်းထားသည်",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "ဈေးနှုန်းများမတွေ့ပါ||| အရင်းအမြစ်",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "စာမျက်နှာ",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "စကင်န်ဖတ်ပါ။ စျေးနှုန်း 500+ တွေ့ရှိခဲ့သည်။ ပထမဆုံး 500 ကို ပြသနေသည်။||| ဤစာမျက်နှာတွင်",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Riyal Price ကို ဖွင့်ပါ သို့မဟုတ် ပိတ်ပါ။ စျေးနှုန်း",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "ပုံစံပြောင်း ဝတ္တရား",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "မူရင်းစျေးနှုန်း",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "ငွေလဲနှုန်း",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "ပုံစံပြောင်း",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "VAT (__PH1__%)",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "အီးအက်စ်တီ။ တာဝန် (__PH1__%)",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "စုစုပေါင်း ခန့်မှန်းချက်",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "||| ၏ အဆင့်သတ်မှတ်ချက် KSA- 15% VAT (တော်ဝင်အမိန့် M/113၊ 2020) · UAE: 5% VAT (ဖက်ဒရယ်ဥပဒေအမှတ် 8၊ 2017)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "အီလက်ထရွန်းနစ်",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "အဝတ်အစား",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "ဖိနပ်",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "ပရိဘောဂ",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "အရုပ်များ",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "အလှကုန် နှင့် အလှအပ",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "ရတနာ",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "အစားအသောက်နှင့် ကုန်စုံ",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "စာအုပ်များ (၀%ဂျူတီ)",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "ကျန်းမာရေး ဖြည့်စွက်စာ",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "အော်တိုအပိုပစ္စည်းများ",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "တခြား",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

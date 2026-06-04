@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Kumukuai Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Kumukuai Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "E ʻike i nā kumukūʻai honua i hoʻololi ʻia i Saudi Riyal (SAR) a me UAE Dirham (AED) me ka VAT a me nā kuhi dute lawe mai, pololei ma nā kahua kūʻai.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Ua ʻike ʻia",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Nā uku",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Kūlana",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Hōʻano hou i nā kumukūʻai hoʻololi",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "hōʻano hou ʻia i kēia manawa",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "hōʻano hou ʻia $1 min aku nei",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "hōʻano hou ʻia $1h aku nei",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "me ka hoʻohana ʻana i ka uku hoʻopahemo",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Hōʻike i nā kumukūʻai ma",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Kuhikuhi",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Hōʻike i ka helu VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Hōʻike i ka helu dute lawe mai",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Māhele huahana",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Manao wale. ʻOkoʻa nā kumukūʻai maoli e ka mea lawe, ka waiwai i haʻi ʻia, a me ka hoʻokaʻawale ʻana i nā dute.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Manao wale. He ʻokoʻa paha nā kumukūʻai lawe mai.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Nā koho hōʻike",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Kūlana hōʻailona",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Ma hope o ke kumu kūʻai",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Ma mua o ke kumu kūʻai",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Hōʻike hae emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "ʻAno paʻakikī",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 nā kumukūʻai i hoʻololi ʻia ma kēia ʻaoʻao",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "ʻAʻohe kumu kūʻai i ʻike ʻia",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Puna",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "E nānā hou i ka ʻaoʻao",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ kumu kūʻai i ʻike ʻia. Hōʻike mua 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "E hoʻā a hoʻopau paha i ke Kumukūʻai Riyal ma kēia ʻaoʻao",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Kumukuai hoohuliia",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "dute",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Kumukuai kumu",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Ka uku hoololi",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Hoʻololi ʻia",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. hana ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "huina helu",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Ka helu o ka",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Mea uila",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Na lole",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Nā kāmaʻa",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Lako hale",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Nā mea pāʻani",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Mea Hoʻoleʻa & Nani",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Na mea nani",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Meaʻai a me nā meaʻai",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Puke (0% dute)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Na Mea Ola Ola",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Nā ʻāpana kaʻa",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "'ē aʻe",
+    "description": "Product category: other"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "ରିୟାଲ୍ ମୂଲ୍ୟ",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "ରିୟାଲ୍ ମୂଲ୍ୟ",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "ସିଧାସଳଖ ଯେକ shopping ଣସି ସପିଂ ସାଇଟରେ ଭ୍ୟାଟ୍ ଏବଂ ଆମଦାନୀ ଶୁଳ୍କ ଆକଳନ ସହିତ ସାଉଦି ରିୟାଲ୍ (SAR) ଏବଂ ୟୁଏଇ ଦିରହମ୍ (AED) ରେ ରୂପାନ୍ତରିତ ଆନ୍ତର୍ଜାତୀୟ ମୂଲ୍ୟ ଦେଖନ୍ତୁ |",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "ଚିହ୍ନଟ",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ମୂଲ୍ୟ",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ସ୍ଥିତି",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "ବିନିମୟ ମୂଲ୍ୟ ସତେଜ କରନ୍ତୁ",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "ବର୍ତ୍ତମାନ ଅଦ୍ୟତନ ହୋଇଛି",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "ଅଦ୍ୟତନ $1 ମିନିଟ୍ ପୂର୍ବରୁ",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "$1h ପୂର୍ବରୁ ଅଦ୍ୟତନ",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ଅଫଲାଇନ୍ ହାର ବ୍ୟବହାର କରି",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "||| ରେ ମୂଲ୍ୟ ଦେଖାନ୍ତୁ | ଆକଳନ",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "ଭ୍ୟାଟ୍ ଆକଳନ ଦେଖାନ୍ତୁ",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "ଆମଦାନୀ ଶୁଳ୍କ ଆକଳନ ଦେଖାନ୍ତୁ",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "ଉତ୍ପାଦ ବର୍ଗ",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "କେବଳ ଆକଳନ କରେ | ପ୍ରକୃତ ଖର୍ଚ୍ଚ ବାହକ, ଘୋଷିତ ମୂଲ୍ୟ ଏବଂ କଷ୍ଟମ୍ସ ବର୍ଗୀକରଣ ଦ୍ୱାରା ଭିନ୍ନ ହୋଇଥାଏ |",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "କେବଳ ଆକଳନ କରେ | ପ୍ରକୃତ ଆମଦାନୀ ଖର୍ଚ୍ଚ ଭିନ୍ନ ହୋଇପାରେ |",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ପ୍ରଦର୍ଶନ ବିକଳ୍ପଗୁଡିକ",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "ବ୍ୟାଜ୍ ସ୍ଥିତି",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "ମୂଲ୍ୟ ପରେ",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "ମୂଲ୍ୟ ପୂର୍ବରୁ",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "ପତାକା ଇମୋଜି ଦେଖାନ୍ତୁ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "କମ୍ପାକ୍ଟ ମୋଡ୍",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "__PH1__ ମୂଲ୍ୟ ଏହି ପୃଷ୍ଠାରେ ରୂପାନ୍ତରିତ",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "କ prices ଣସି ମୂଲ୍ୟ ଚିହ୍ନଟ ହୋଇନାହିଁ",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "ଉତ୍ସ",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "ପୁନ page ସ୍କାନ୍ ପୃଷ୍ଠା",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "500+ ମୂଲ୍ୟ ଚିହ୍ନଟ ହୋଇଛି | ପ୍ରଥମ 500 ଦେଖାଉଛି |",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "ଏହି ପୃଷ୍ଠାରେ ରିୟାଲ୍ ମୂଲ୍ୟ ସକ୍ଷମ କିମ୍ବା ଅକ୍ଷମ କରନ୍ତୁ",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "ରୂପାନ୍ତରିତ ମୂଲ୍ୟ",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "କର୍ତ୍ତବ୍ୟ",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "ମୂଳ ମୂଲ୍ୟ",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "ବିନିମୟ ମୂଲ୍ୟ",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "ରୂପାନ୍ତରିତ",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ଭ୍ୟାଟ୍ (__PH1 __%)",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ଇଷ୍ଟ କର୍ତ୍ତବ୍ୟ (__PH1 __%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "ମୋଟ ଆକଳନ",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "ରେଟ୍",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "KSA: 15% ଭ୍ୟାଟ୍ (ରୟାଲ୍ ଡିକ୍ରି M / 113, 2020) · ୟୁଏଇ: 5% ଭାଟ୍ (ଫେଡେରାଲ୍ ଆଇନ ନଂ 8, 2017)",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "ଇଲେକ୍ଟ୍ରୋନିକ୍ସ",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "ପୋଷାକ",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "ପାଦୁକା",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "ଆସବାବପତ୍ର",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "ଖେଳନା",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "ପ୍ରସାଧନ ସାମଗ୍ରୀ ଏବଂ ସ Beauty ନ୍ଦର୍ଯ୍ୟ",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "ଅଳଙ୍କାର",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "ଖାଦ୍ୟ ଏବଂ ଖାଦ୍ୟ",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "ପୁସ୍ତକ (0% କର୍ତ୍ତବ୍ୟ)",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "ସ୍ୱାସ୍ଥ୍ୟ ସପ୍ଲିମେଣ୍ଟସ୍",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "ଅଟୋ ଅଂଶ",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "ଅନ୍ୟମାନେ |",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

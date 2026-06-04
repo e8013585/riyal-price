@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal Qiymət",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal Qiymət",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "İstənilən alış-veriş saytında birbaşa ƏDV və idxal rüsumları ilə Səudiyyə Riyalı (SAR) və BƏƏ Dirhəminə (AED) çevrilmiş beynəlxalq qiymətlərə baxın.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Aşkarlandı",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Qiymətlər",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Valyuta məzənnələrini yeniləyin",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "indi yeniləndi",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "yenilənib $1 dəqiqə əvvəl",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "$1saat əvvəl yenilənib",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "oflayn tariflərdən istifadə",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Qiymətləri |||-də göstərin Qiymətləndirmə",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "ƏDV təxminini göstər",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "İdxal rüsumunun təxmini",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "göstərin Məhsul kateqoriyası",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Yalnız təxminlər. Faktiki xərclər daşıyıcıya, bəyan edilmiş dəyərə və gömrük təsnifatına görə dəyişir.",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Yalnız təxminlər. Faktiki idxal xərcləri fərqli ola bilər.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Ekran seçimləri",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Nişan mövqeyi",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Qiymətdən sonra",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Qiymətdən əvvəl",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Bayraq emojisini göstər",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Kompakt rejim",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "__PH1__ qiymətlər bu səhifədə",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "çevrildi Heç bir qiymət aşkarlanmadı",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Mənbə",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Səhifəni yenidən skan edin",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "500+ qiymət aşkar edildi. İlk 500 göstərilir.",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Bu səhifədə Riyal Qiymətini aktivləşdirin və ya söndürün",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Çevirilmiş qiymət",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "vəzifə",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "Orijinal qiymət",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "məzənnə",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Dönüştürülmüş",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ƏDV (__PH1__%)",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "Təxmini. rüsum ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Ümumi təxmin",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "||| tarixinə görə dərəcə KSA: 15% ƏDV (Kral Fərmanı M/113, 2020) · BƏƏ: 5% ƏDV (Federal Qanun № 8, 2017)",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Elektronika",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "Geyim",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Ayaqqabı",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Mebel",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Oyuncaqlar",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Kosmetika və Gözəllik",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Zərgərlik",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Qida və Baqqal",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Kitablar (0% rüsum)",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Sağlamlıq Əlavələri",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Avtomobil hissələri",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Digər",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

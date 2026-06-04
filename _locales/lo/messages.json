@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "ລາຄາ Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "ລາຄາ Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "ເບິ່ງລາຄາສາກົນທີ່ປ່ຽນເປັນ Saudi Riyal (SAR) ແລະ UAE Dirham (AED) ດ້ວຍ VAT ແລະການຄາດຄະເນພາສີນໍາເຂົ້າ, ໂດຍກົງໃນເວັບໄຊທ໌ຊື້ເຄື່ອງ.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "ກວດພົບ",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ອັດຕາ",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ສະຖານະ",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "ປັບປຸງອັດຕາແລກປ່ຽນ",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "ອັບເດດດຽວນີ້",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "ອັບເດດ $1 ນາທີກ່ອນ",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "ອັບເດດ $1h ກ່ອນ",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ການນໍາໃຊ້ອັດຕາອອບໄລນ໌",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "ສະແດງລາຄາໃນ",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "ການຄາດຄະເນ",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "ສະແດງການຄາດຄະເນ VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "ສະແດງການປະເມີນພາສີນໍາເຂົ້າ",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "ໝວດສິນຄ້າ",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "ການຄາດຄະເນເທົ່ານັ້ນ. ຄ່າໃຊ້ຈ່າຍຕົວຈິງແຕກຕ່າງກັນໄປຕາມຜູ້ໃຫ້ບໍລິການ, ມູນຄ່າທີ່ປະກາດ, ແລະການຈັດປະເພດພາສີ",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ການຄາດຄະເນເທົ່ານັ້ນ. ຄ່າໃຊ້ຈ່າຍໃນການນໍາເຂົ້າຕົວຈິງອາດຈະແຕກຕ່າງກັນ.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "ຕົວເລືອກການສະແດງ",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "ຕໍາແໜ່ງປ້າຍ",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "ຫຼັງລາຄາ",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "ກ່ອນລາຄາ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "ສະແດງທຸງ emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "ໂໝດກະທັດຮັດ",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 ລາຄາປ່ຽນໃນໜ້ານີ້",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "ບໍ່ພົບລາຄາ",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "ທີ່ມາ",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "ສະແກນໜ້າໃໝ່",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "ກວດພົບ 500+ ລາຄາ. ສະແດງ 500 ທຳອິດ",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "ເປີດຫຼືປິດ Riyal ລາຄາໃນຫນ້ານີ້",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "ລາຄາແປງ",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "ໜ້າທີ່",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "ລາຄາເດີມ",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "ອັດຕາແລກປ່ຽນ",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ແປງ",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "ຄາດຄະເນ ໜ້າທີ່ ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "ການຄາດຄະເນທັງໝົດ",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "ອັດຕາເປັນຂອງ",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "ເອເລັກໂຕຣນິກ",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "ເສື້ອຜ້າ",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "ເກີບ",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "ເຟີນິເຈີ",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "ຂອງຫຼິ້ນ",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "ເຄື່ອງສຳອາງ & ຄວາມງາມ",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "ເຄື່ອງປະດັບ",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "ອາຫານ ແລະເຄື່ອງແຫ້ງ",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "ປຶ້ມ (ພາລະ 0%)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "ອາຫານເສີມສຸຂະພາບ",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "ອາໄຫລ່ລົດຍົນ",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "ອື່ນໆ",
+    "description": "Product category: other"
+  }
+}

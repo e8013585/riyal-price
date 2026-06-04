@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Preu Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Preu Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Consulteu els preus internacionals convertits a riyal saudita (SAR) i dírham dels Emirats Àrabs Units (AED) amb estimacions d'IVA i drets d'importació, directament a qualsevol lloc de compres.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Detectat",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tarifes",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Estat",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Actualitzar els tipus de canvi",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "actualitzat ara mateix",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "actualitzat fa $1 min",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "actualitzat fa $1h",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "utilitzant tarifes fora de línia",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Mostra preus a",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Estimació",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Mostra l'estimació de l'IVA",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Mostra l'estimació dels drets d'importació",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Categoria de producte",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Només estimacions. Els costos reals varien segons el transportista, el valor declarat i la classificació duanera.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Només estimacions. Els costos reals d'importació poden diferir.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Opcions de visualització",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Posició del distintiu",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Després del preu",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Abans del preu",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Mostra l'emoji de la bandera",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Mode compacte",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 preus convertits en aquesta pàgina",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "No s'han detectat preus",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Font",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Torna a escanejar la pàgina",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "S'han detectat més de 500 preus. Es mostren els primers 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Activa o desactiva Riyal Price en aquesta pàgina",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Preu convertit",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "deure",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Preu original",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Tipus de canvi",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Convertit",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "IVA ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. deure ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Estimació total",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Tarifa a partir de",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% d'IVA (Reial decret M/113, 2020) · Emirats Àrabs Units: 5% d'IVA (Llei federal núm. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electrònica",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Roba",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Calçat",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Mobles",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Joguines",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmètica i bellesa",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Joieria",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Alimentació i queviures",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Llibres (0% impostos)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Suplements per a la salut",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Peces d'automòbil",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Altres",
+    "description": "Product category: other"
+  }
+}

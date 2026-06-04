@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Prezo Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Prezo Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Consulta os prezos internacionais convertidos a riyal saudita (SAR) e dirham dos Emiratos Árabes Unidos (AED) con estimacións de IVE e dereitos de importación, directamente en calquera sitio de compras.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Detectado",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tarifas",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Estado",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Actualizar tipos de cambio",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "actualizado agora",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "actualizado hai $1 min",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "actualizado hai $1h",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "usando tarifas sen conexión",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Mostrar prezos en",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Estimación",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Mostrar estimación do IVE",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Mostrar a estimación dos dereitos de importación",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Categoría de produto",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Só estimacións. Os custos reais varían segundo o transportista, o valor declarado e a clasificación aduaneira.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Só estimacións. Os custos reais de importación poden diferir.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Opcións de visualización",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Posición do distintivo",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Despois do prezo",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Antes do prezo",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Mostrar emoji da bandeira",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Modo compacto",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 prezos convertidos nesta páxina",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Non se detectaron prezos",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Fonte",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Volve dixitalizar a páxina",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Detectáronse máis de 500 prezos. Mostrando os primeiros 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Activa ou desactiva Riyal Price nesta páxina",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Prezo convertido",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "deber",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Prezo orixinal",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Tipo de cambio",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Convertido",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "IVE ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. deber ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Estimación total",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Taxa a partir de",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: IVE do 15 % (Real Decreto M/113, 2020) · Emiratos Árabes Unidos: IVE do 5 % (Lei Federal nº 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electrónica",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Roupa",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Calzado",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Mobles",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Xoguetes",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosméticos e beleza",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Xoias",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Alimentos e comestibles",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Libros (0% imposto)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Suplementos para a saúde",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Recambios de automóbiles",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Outros",
+    "description": "Product category: other"
+  }
+}

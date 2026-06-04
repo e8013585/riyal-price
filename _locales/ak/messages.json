@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal Boɔ",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal Boɔ",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Hwɛ amanaman ntam nneɛma bo a wɔadan no Saudi Riyal (SAR) ne UAE Dirham (AED) a VAT ne tow a wɔbɔ wɔ nneɛma a wɔde ba amannɔne ho akontaabu, tẽẽ wɔ aguadibea biara.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Wɔahu",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Nneɛma a wɔde boa",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Gyinabea",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Fa sika a wɔde sesa nneɛma foforo",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "updated mprempren ara",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "wɔayɛ no foforo $1 simma a atwam ni",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "wɔayɛ no foforo $1h a atwam ni",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "de offline rates di dwuma",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Kyerɛ nneɛma bo wɔ",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Nkontaabu",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Kyerɛ VAT akontaabu",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Kyerɛ import tow ho akontaabu",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Nneɛma a wɔyɛ no fã",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Akontaabu nkutoo. Ɛsono ɛka ankasa a wɔbɔ wɔ nea wɔde fa nneɛma, bo a wɔabɔ ho dawuru, ne amanneɛbɔ mu nkyekyem ahorow mu.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Akontaabu nkutoo. Ebia ɛsono ɛka a wɔbɔ ankasa wɔ nneɛma a wɔde fi amannɔne ba ho.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Kyerɛw nneɛma a wobɛpaw",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Badge gyinabea",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Afei boɔ",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Ansa na ɛboɔ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Kyerɛ frankaa emoji",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Compact mode",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 bo a wɔadan no wɔ krataafa yi so",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Wɔanhu nneɛma bo biara",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Fibea",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "San scan krataafa",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ bo a wɔahu. Ɔrekyerɛ nea edi kan 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Ma Riyal Price nyɛ adwuma anaasɛ ɛnnyɛ adwuma wɔ krataafa yi so",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Nsakraeɛ boɔ",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "asɛdeɛ",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Mfitiaseɛ boɔ",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Nneɛma a wɔde sesa sika",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Wɔasakra no",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. adwuma ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Nkontaabu nyinaa",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rate sɛnea ɛte wɔ",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Ahemfo Mmara M/113, 2020) · UAE: 5% VAT (Aman Mmara a Ɛto so 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Ɛlektrɔnik Nneɛma",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Ntadeɛ",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Mpaboa Ntama",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Nneɛma a wɔde siesie fie",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Agode a Wɔde Di Dwuma",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Nneɛma a Wɔde Yɛ Afɛfɛde & Ahoɔfɛ",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Agude a Wɔde Yɛ Aguade",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Aduan & Nneɛma a Wɔtɔn",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Nhoma (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Akwahosan Ho Nneɛma a Wɔde Ka Ho",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Afã horow",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Foforɔ",
+    "description": "Product category: other"
+  }
+}

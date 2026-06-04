@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Riyal Präis",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Riyal Präis",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Gesinn international Präisser ëmgerechent op Saudi Riyal (SAR) an UAE Dirham (AED) mat TVA an Import Flicht Schätzung, direkt op all Akafsplaz.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Erkannt",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tariffer",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Exchange Taux aktualiséiert",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "aktualiséiert just elo",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "aktualiséiert $1 min ago",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "aktualiséiert $1h ago",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "benotzt offline Tariffer",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Show Präisser an",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Schätzung",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Show TVA Schätzung",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Show Import Flicht Schätzung",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Produit Kategorie",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Schätzungen nëmmen. Tatsächlech Käschten variéiere vum Carrier, deklaréierte Wäert, an Zollklassifikatioun.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Schätzungen nëmmen. Tatsächlech Importkäschte kënnen ënnerschiddlech sinn.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Displayoptiounen",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Badge Positioun",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "No Präis",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Virum Präis",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Fändel Emoji weisen",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Kompakt Modus",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 Präisser op dëser Säit ëmgerechent",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Keng Präisser festgestallt",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Quelle",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Re-scannt Säit",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ Präisser entdeckt. Weist éischt 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Aktivéiert oder deaktivéiert Riyal Präis op dëser Säit",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "ëmgerechent Präis",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "Pflicht",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Original Präis",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Exchange Taux",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Konvertéiert",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "TVA ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. Pflicht ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Gesamtschätzung",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Taux vun",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% TVA (Royal Decret M/113, 2020) · UAE: 5% TVA (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronik",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Kleeder",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Schong",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Miwwelen",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Spillsaachen",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmetik & Schéinheet",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Bijouen",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Iessen & Epicerie",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Bicher (0% Flicht)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Gesondheet Ergänzunge",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Aner",
+    "description": "Product category: other"
+  }
+}

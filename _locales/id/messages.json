@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Harga Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Harga Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Lihat harga internasional yang dikonversi ke Riyal Saudi (SAR) dan Dirham UEA (AED) dengan perkiraan PPN dan bea masuk, langsung di situs belanja mana pun.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Terdeteksi",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tarif",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Segarkan nilai tukar",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "baru saja diperbarui",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "diperbarui $1 menit yang lalu",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "diperbarui $1jam yang lalu",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "menggunakan tarif offline",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Tampilkan harga dalam",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Estimasi",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Tampilkan perkiraan PPN",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Tampilkan perkiraan bea masuk",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Kategori produk",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Hanya perkiraan. Biaya sebenarnya bervariasi menurut operator, nilai yang dinyatakan, dan klasifikasi bea cukai.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Hanya perkiraan. Biaya impor sebenarnya mungkin berbeda.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Opsi tampilan",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Posisi lencana",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Setelah harga",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Sebelum harga",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Tampilkan emoji bendera",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Mode ringkas",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 harga dikonversi di halaman ini",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Tidak ada harga yang terdeteksi",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Sumber",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Pindai ulang halaman",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ harga terdeteksi. Menampilkan 500 pertama.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Aktifkan atau nonaktifkan Harga Riyal di halaman ini",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Harga yang dikonversi",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "tugas",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Harga asli",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Nilai tukar",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Dikonversi",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "PPN ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Perkiraan. tugas ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Perkiraan jumlah",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Nilai per",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: PPN 15% (Keputusan Kerajaan M/113, 2020) · UEA: PPN 5% (UU Federal No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronik",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Pakaian",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Alas kaki",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Furnitur",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Mainan",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Kosmetik & Kecantikan",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Perhiasan",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Makanan & Bahan Makanan",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Buku (bea 0%)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Suplemen Kesehatan",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Suku Cadang Mobil",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Lainnya",
+    "description": "Product category: other"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "ਰਿਆਲ ਕੀਮਤ",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "ਰਿਆਲ ਕੀਮਤ",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "ਕਿਸੇ ਵੀ ਖਰੀਦਦਾਰੀ ਸਾਈਟ 'ਤੇ, ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਵੈਟ ਅਤੇ ਆਯਾਤ ਡਿਊਟੀ ਅਨੁਮਾਨਾਂ ਦੇ ਨਾਲ ਸਾਊਦੀ ਰਿਆਲ (SAR) ਅਤੇ UAE ਦਿਰਹਾਮ (AED) ਵਿੱਚ ਬਦਲੀਆਂ ਅੰਤਰਰਾਸ਼ਟਰੀ ਕੀਮਤਾਂ ਦੇਖੋ।",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "ਖੋਜਿਆ",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ਦਰਾਂ",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ਸਟੇਟਸ",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "ਐਕਸਚੇਂਜ ਦਰਾਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "ਹੁਣੇ ਅੱਪਡੇਟ ਕੀਤਾ",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "ਅੱਪਡੇਟ ਕੀਤਾ $1 ਮਿੰਟ ਪਹਿਲਾਂ",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ $1ਘੰਟਾ ਪਹਿਲਾਂ",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "ਔਫਲਾਈਨ ਦਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "ਵਿੱਚ ਕੀਮਤਾਂ ਦਿਖਾਓ",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "ਅੰਦਾਜ਼ਾ",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "ਵੈਟ ਅਨੁਮਾਨ ਦਿਖਾਓ",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "ਦਰਾਮਦ ਡਿਊਟੀ ਅਨੁਮਾਨ ਦਿਖਾਓ",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "ਉਤਪਾਦ ਸ਼੍ਰੇਣੀ",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "ਅੰਦਾਜ਼ਾ ਹੀ। ਅਸਲ ਲਾਗਤਾਂ ਕੈਰੀਅਰ, ਘੋਸ਼ਿਤ ਮੁੱਲ ਅਤੇ ਕਸਟਮ ਵਰਗੀਕਰਣ ਦੁਆਰਾ ਵੱਖ-ਵੱਖ ਹੁੰਦੀਆਂ ਹਨ।",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "ਅੰਦਾਜ਼ਾ ਹੀ। ਅਸਲ ਆਯਾਤ ਲਾਗਤਾਂ ਵੱਖਰੀਆਂ ਹੋ ਸਕਦੀਆਂ ਹਨ।",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "ਡਿਸਪਲੇ ਵਿਕਲਪ",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "ਬੈਜ ਦੀ ਸਥਿਤੀ",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "ਕੀਮਤ ਤੋਂ ਬਾਅਦ",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "ਕੀਮਤ ਤੋਂ ਪਹਿਲਾਂ",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "ਫਲੈਗ ਇਮੋਜੀ ਦਿਖਾਓ",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "ਸੰਖੇਪ ਮੋਡ",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 ਕੀਮਤਾਂ ਇਸ ਪੰਨੇ 'ਤੇ ਬਦਲੀਆਂ",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "ਕੋਈ ਕੀਮਤ ਨਹੀਂ ਲੱਭੀ",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "ਸਰੋਤ",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "ਰੀ-ਸਕੈਨ ਪੇਜ",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "500+ ਕੀਮਤਾਂ ਦਾ ਪਤਾ ਲਗਾਇਆ ਗਿਆ। ਪਹਿਲਾਂ 500 ਦਿਖਾ ਰਿਹਾ ਹੈ।",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "ਇਸ ਪੰਨੇ 'ਤੇ ਰਿਆਲ ਕੀਮਤ ਨੂੰ ਸਮਰੱਥ ਜਾਂ ਅਯੋਗ ਕਰੋ",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "ਪਰਿਵਰਤਿਤ ਕੀਮਤ",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "ਡਿਊਟੀ",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "ਅਸਲੀ ਕੀਮਤ",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "ਐਕਸਚੇਂਜ ਰੇਟ",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "ਪਰਿਵਰਤਿਤ",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "ਵੈਟ ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "ਅਨੁਮਾਨ ਡਿਊਟੀ ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "ਕੁੱਲ ਅਨੁਮਾਨ",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "ਦੇ ਅਨੁਸਾਰ ਦਰ",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (ਫੈਡਰਲ ਲਾਅ ਨੰ. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "ਇਲੈਕਟ੍ਰਾਨਿਕਸ",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "ਕੱਪੜੇ",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "ਜੁੱਤੀਆਂ",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "ਫਰਨੀਚਰ",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "ਖਿਡੌਣੇ",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "ਸ਼ਿੰਗਾਰ ਅਤੇ ਸੁੰਦਰਤਾ",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "ਗਹਿਣੇ",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "ਭੋਜਨ ਅਤੇ ਕਰਿਆਨੇ",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "ਕਿਤਾਬਾਂ (0% ਡਿਊਟੀ)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "ਸਿਹਤ ਪੂਰਕ",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "ਆਟੋ ਪਾਰਟਸ",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "ਹੋਰ",
+    "description": "Product category: other"
+  }
+}

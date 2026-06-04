@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Prìs Riyal || Prìs Riyal || Faic prìsean eadar-nàiseanta air an tionndadh gu Saudi Riyal (SAR) agus UAE Dirham (AED) le tuairmsean VAT agus cìs in-mhalairt, gu dìreach air làrach bhùthan sam bith.",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Air a lorg",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Ìrean",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Inbhe|||| Ùraich ìrean iomlaid || air ùrachadh an-dràsta",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "ùrachadh __PH1__ mionaid air ais",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "ùrachadh __PH1__h air ais",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "a’ cleachdadh reataichean far loidhne",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "Seall prìsean ann an",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "Measadh",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "Seall tuairmse VAT || Seall tuairmse cìs in-mhalairt",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "Roinn bathair",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Measaidhean a-mhàin. Bidh fìor chosgaisean ag atharrachadh a rèir neach-giùlain, luach dearbhte, agus seòrsachadh cleachdaidhean.",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Measaidhean a-mhàin. Faodaidh fìor chosgaisean in-mhalairt a bhith eadar-dhealaichte.",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Roghainnean taisbeanaidh",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Suidheachadh a’ bhràiste",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Às deidh prìs",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Ro phrìs",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Seall emoji bratach",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Modh dùmhail",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "__PH1__ prìsean air an tionndadh air an duilleag seo",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Cha deach prìsean a lorg",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Stòr|||| Ath-sgan duilleag",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "500+ prìsean air an lorg. A' sealltainn a' chiad 500. || Dèan comas no cuir à comas Riyal Price air an duilleag seo",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Prìs air a thionndadh || dleastanas|||| Prìs tùsail",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "Ìre iomlaid || Thionndaidh",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "VAT (__PH1__%)",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Eist. dleastanas (__PH1__%)",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Measadh iomlan || Ìre mar de",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "KSA: 15% VAT (Òrdugh Rìoghail M/113, 2020) · UAE: 5% VAT (Lagh Feadarail Àir. 8, 2017)",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Leictreonaic|| Aodach|| Brògan|| Àirneis|| Dèideagan",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Cosmaideachd & Bòidhchead || Seudan|| Biadh & Grosaireachd|| Leabhraichean (0% dleastanas)|| Leasanan Slàinte || Pàirtean fèin-ghluasadach || Eile",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "duty",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Original price",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Exchange rate",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Converted",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. duty ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Total estimate",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rate as of",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Royal Decree M/113, 2020) · UAE: 5% VAT (Federal Law No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electronics",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Clothing",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Footwear",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Furniture",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Toys",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Beauty",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jewelry",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Food & Grocery",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Books (0% duty)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Health Supplements",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Other",
+    "description": "Product category: other"
+  }
+}

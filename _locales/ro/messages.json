@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Prețul Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Prețul Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Vedeți prețurile internaționale convertite în rial saudit (SAR) și dirham din Emiratele Arabe Unite (AED) cu estimări de TVA și taxe de import, direct pe orice site de cumpărături.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Detectat",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Tarife",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Stare",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Actualizează cursurile de schimb",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "actualizat tocmai acum",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "actualizat acum $1 min",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "actualizat acum $1h",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "folosind tarife offline",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Afișați prețurile în",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Estimare",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Arată estimarea TVA",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Arată estimarea taxei de import",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Categoria de produs",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Doar estimări. Costurile reale variază în funcție de transportator, valoarea declarată și clasificarea vamală.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Doar estimări. Costurile reale de import pot diferi.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Opțiuni de afișare",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Poziția insignei",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "După preț",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Înainte de preț",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Afișează emoji-ul steag",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Modul compact",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 prețuri convertite pe această pagină",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Nu au fost detectate prețuri",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Sursa",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Scanează din nou pagina",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Peste 500 de prețuri detectate. Se afișează primele 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Activați sau dezactivați Riyal Price pe această pagină",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Preț convertit",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "datorie",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Prețul original",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Cursul de schimb",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Convertit",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "TVA ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "EST. taxă ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Estimare totală",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Cota de la",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% TVA (Decretul Regal M/113, 2020) · EAU: 5% TVA (Legea Federală nr. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Electronică",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Îmbrăcăminte",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Încălțăminte",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Mobilier",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Jucării",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetice și frumusețe",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Bijuterii",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Mâncare și produse alimentare",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Cărți (0% taxă)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Suplimente pentru sănătate",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Piese auto",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Alte",
+    "description": "Product category: other"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Vidiny Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Vidiny Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Jereo ny vidin'ny iraisam-pirenena niova ho Saudi Riyal (SAR) sy UAE Dirham (AED) miaraka amin'ny VAT sy ny tombantomban'ny hetra fanafarana, mivantana amin'ny tranokala fiantsenana.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Hita",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Sarany",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Status",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Havaozina ny tahan'ny fifanakalozana",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "nohavaozina vao haingana",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "nohavaozina $1 min lasa izay",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "nohavaozina $1h lasa izay",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "mampiasa sara ivelan'ny aterineto",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Asehoy ny vidiny amin'ny",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "Tombanana",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Asehoy ny tombana VAT",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Asehoy ny tombantomban'ny hetra fanafarana",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "sokajy vokatra",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Tombana ihany. Miovaova arakaraka ny mpitatitra, ny sanda nambara ary ny fanasokajiana ny ladoany ny tena sarany.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Tombana ihany. Mety tsy hitovy ny vidin'ny fanafarana tena izy.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Asehoy ny safidy",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Toerana misy marika",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Aorian'ny vidiny",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Alohan'ny vidiny",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Asehoy ny emoji saina",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "maody mirindra",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "$1 vidiny niova fo amin'ity pejy ity",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Tsy misy vidiny hita",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Loharano",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Avereno scan page",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Vidiny 500+ no hita. Mampiseho voalohany 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Alefaso na esory ny Riyal Price amin'ity pejy ity",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Vidiny niova fo",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "adidy",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Vidiny voalohany",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "tahan'ny fifanakalozana",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Niova fo",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. adidy ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Tombanana manontolo",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Ny tahan'ny",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Didim-panjakana M/113, 2020) · Emira Arabo Mitambatra: 5% VAT (Lalàna Federaly No. 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronika",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Akanjo",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "kiraro",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Fanaka",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "kilalao",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Beauty",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Firavaka",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Sakafo sy entam-barotra",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Boky (0% adidy)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Fanampiny ara-pahasalamana",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Fiara fiara",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "hafa",
+    "description": "Product category: other"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "extensionName": {
+    "message": "Bihayê Riyal",
+    "description": "Extension name"
+  },
+  "extensionShortName": {
+    "message": "Bihayê Riyal",
+    "description": "Short extension name"
+  },
+  "extensionDescription": {
+    "message": "Binêre bihayên navneteweyî ku rasterast li ser her malperek kirrûbirrê, li Riyalê Erebistana Siûdî (SAR) û Dirhamê UAE (AED) bi VAT û texmînên baca importê hatine veguheztin.",
+    "description": "Extension description for the Chrome Web Store"
+  },
+  "statusDetected": {
+    "message": "Tesbît kirin",
+    "description": "Label before the detected source currency code"
+  },
+  "statusRates": {
+    "message": "Rêjeyên",
+    "description": "Label before the exchange rate timestamp"
+  },
+  "statusSection": {
+    "message": "Rewş",
+    "description": "Aria label for the status section"
+  },
+  "refreshRates": {
+    "message": "Rêjeyên danûstendinê nûve bikin",
+    "description": "Tooltip and aria-label for the refresh button"
+  },
+  "ratesJustNow": {
+    "message": "aniha hat nûkirin",
+    "description": "Shown when rates were fetched very recently"
+  },
+  "ratesMinutesAgo": {
+    "message": "$1 min berê hat nûkirin",
+    "description": "Shown when rates were fetched N minutes ago"
+  },
+  "ratesHoursAgo": {
+    "message": "$1h berê hate nûkirin",
+    "description": "Shown when rates were fetched N hours ago"
+  },
+  "ratesUsingFallback": {
+    "message": "bikaranîna rêjeyên negirêdayî",
+    "description": "Shown when using hardcoded fallback rates"
+  },
+  "showPricesIn": {
+    "message": "Bihayan di",
+    "description": "Section label for target currency selection"
+  },
+  "estimationSection": {
+    "message": "de nîşan bide Texmîn",
+    "description": "Section label for VAT and duty estimation"
+  },
+  "showVAT": {
+    "message": "Texmîna VAT nîşan bide",
+    "description": "Toggle label for VAT estimation"
+  },
+  "showDuty": {
+    "message": "Texmîna baca importê nîşan bide",
+    "description": "Toggle label for import duty estimation"
+  },
+  "productCategory": {
+    "message": "Kategoriya hilberê",
+    "description": "Label for the product category dropdown"
+  },
+  "disclaimerText": {
+    "message": "Texmînan tenê. Mesrefên rastîn li gorî hilgir, nirxa diyarkirî, û dabeşkirina gumrikê diguhere.",
+    "description": "Disclaimer shown under estimation section"
+  },
+  "disclaimerShort": {
+    "message": "Texmînan tenê. Dibe ku lêçûnên îthalata rastîn cûda bibin.",
+    "description": "Short disclaimer shown in badge tooltip"
+  },
+  "displayOptions": {
+    "message": "Vebijarkên nîşan bide",
+    "description": "Collapsible section label for display settings"
+  },
+  "badgePosition": {
+    "message": "Helwesta nîşanê",
+    "description": "Label for badge position radio buttons"
+  },
+  "badgeAfterPrice": {
+    "message": "Piştî bihayê",
+    "description": "Radio option: badge appears after the price"
+  },
+  "badgeBeforePrice": {
+    "message": "Berî bihayê",
+    "description": "Radio option: badge appears before the price"
+  },
+  "showFlag": {
+    "message": "Emoji ala nîşan bide",
+    "description": "Toggle label for flag emoji in badge"
+  },
+  "compactMode": {
+    "message": "Moda kompakt",
+    "description": "Toggle label for compact badge (price only, full detail on hover)"
+  },
+  "pricesConverted": {
+    "message": "Bihayên $1 li ser vê rûpelê hatine guhertin",
+    "description": "Stats: number of prices converted"
+  },
+  "noPricesDetected": {
+    "message": "Biha nehat dîtin",
+    "description": "Shown when no prices found on the page"
+  },
+  "sourceCurrency": {
+    "message": "Çavkanî",
+    "description": "Label for the source currency in the stats row"
+  },
+  "rescanPage": {
+    "message": "Rûpelê ji nû ve bişopîne",
+    "description": "Button to re-run price detection on the current page"
+  },
+  "maxPricesWarning": {
+    "message": "Zêdetirî 500 biha hatine tespît kirin. Pêşandana 500.",
+    "description": "Warning when price count limit is hit"
+  },
+  "masterToggle": {
+    "message": "Li ser vê rûpelê Bihayê Riyal çalak bike an neçalak bike",
+    "description": "Aria label for the master on/off toggle"
+  },
+  "badgeAriaLabel": {
+    "message": "Bihayê veguherî",
+    "description": "Aria label for injected badge spans"
+  },
+  "dutyLabel": {
+    "message": "erk",
+    "description": "The word 'duty' in the badge duty line"
+  },
+  "tooltipOriginal": {
+    "message": "Bihayê eslî",
+    "description": "Tooltip row label: original price"
+  },
+  "tooltipRate": {
+    "message": "Rêjeya danûstendinê",
+    "description": "Tooltip row label: exchange rate used"
+  },
+  "tooltipConverted": {
+    "message": "Veguherandin",
+    "description": "Tooltip row label: converted price"
+  },
+  "tooltipVAT": {
+    "message": "VAT ($1%)",
+    "description": "Tooltip row label: VAT with percentage"
+  },
+  "tooltipDuty": {
+    "message": "Est. erk ($1%)",
+    "description": "Tooltip row label: estimated duty with percentage"
+  },
+  "tooltipTotal": {
+    "message": "Tevahiya texmîn",
+    "description": "Tooltip row label: total estimated cost"
+  },
+  "tooltipRateTime": {
+    "message": "Rêjeya ji",
+    "description": "Tooltip row label: timestamp label"
+  },
+  "vatLawNote": {
+    "message": "KSA: 15% VAT (Mersûmê Qraliyetê M/113, 2020) · UAE: 5% VAT (Qanûna Federal Hejmar 8, 2017)",
+    "description": "Legal reference note shown in tooltip for VAT"
+  },
+  "categoryElectronics": {
+    "message": "Elektronîk",
+    "description": "Product category: electronics"
+  },
+  "categoryClothing": {
+    "message": "Cil û berg",
+    "description": "Product category: clothing"
+  },
+  "categoryFootwear": {
+    "message": "Footwear",
+    "description": "Product category: footwear"
+  },
+  "categoryFurniture": {
+    "message": "Mobil",
+    "description": "Product category: furniture"
+  },
+  "categoryToys": {
+    "message": "Pêlîstok",
+    "description": "Product category: toys"
+  },
+  "categoryCosmetics": {
+    "message": "Cosmetics & Beauty",
+    "description": "Product category: cosmetics"
+  },
+  "categoryJewelry": {
+    "message": "Jewelry",
+    "description": "Product category: jewelry"
+  },
+  "categoryFood": {
+    "message": "Xwarin & Xwarin",
+    "description": "Product category: food"
+  },
+  "categoryBooks": {
+    "message": "Pirtûk (0% erk)",
+    "description": "Product category: books, with duty rate note"
+  },
+  "categorySupplements": {
+    "message": "Pêvekên Tenduristî",
+    "description": "Product category: supplements"
+  },
+  "categoryAutoParts": {
+    "message": "Auto Parts",
+    "description": "Product category: auto parts"
+  },
+  "categoryOther": {
+    "message": "Yên din",
+    "description": "Product category: other"
+  }
+}
